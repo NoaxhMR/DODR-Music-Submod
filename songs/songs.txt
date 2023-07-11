@@ -368,7 +368,6 @@ song = {
 		}
 	}
 }
-
 #### COLOMBIA ##########################################################################################
 
 song = {
@@ -783,7 +782,6 @@ song = {
 		}	
 	}
 }
-
 #### VINLAND (it's just norwegian music lol) #####################################################################
 
 song = {
@@ -1240,8 +1238,7 @@ song = {
 		}	
 	}
 }
-
-#### ACADIANIE (unfinished because the cajuns really suck at making songs that aren't country aparently) ##################
+#### ACADIANIE ######################################################################################
 
 song = {
 	name = "la danse de mardi gras.mp3"
@@ -1376,7 +1373,163 @@ song = {
 	}
 }
 song = {
-	name = "le combat de la danae.mp3"
+	name = "c'est l'aviron.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = PLA
+			tag = LOU
+			tag = OUM
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "lorena.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = PLA
+			tag = LOU
+			tag = OUM
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "belle.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLA
+              tag = LOU			  
+			  tag = OUM
+			  tag = ARC
+			  tag = AFN
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "la belle et le capitaine.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLA
+              tag = LOU			  
+			  tag = OUM
+			  tag = ARC
+			  tag = AFN
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "dixie gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLA
+              tag = LOU			  
+			  tag = OUM
+			  tag = ARC
+			  tag = AFN
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "danse frontaliere.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLA
+              tag = LOU			  
+			  tag = OUM
+			  tag = ARC
+			  tag = AFN
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "maison du soleil levant.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -1399,7 +1552,745 @@ song = {
 		}	
 	}
 }
+song = {
+	name = "dixie war.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLA
+              tag = LOU
+			  tag = OUM
+			  tag = ARC
+			  tag = AFN
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "marche du prince.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLA
+              tag = LOU
+			  tag = OUM
+			  tag = ARC
+			  tag = AFN
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "marche de saintonge.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLA
+              tag = LOU
+			  tag = OUM
+			  tag = ARC
+			  tag = AFN
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "marche de zurlauben.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLA
+              tag = LOU
+			  tag = OUM
+			  tag = ARC
+			  tag = AFN
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "danse de village.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLA
+              tag = LOU
+			  tag = OUM
+			  tag = ARC
+			  tag = AFN
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+#### BELGIUM / NEW BURGUNDY ######################################################
 
+song = {
+	name = "la petite gayole.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "aredge di malempre.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "el scottisch del baraque des bos.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "stokkendans.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "bondjou wesen.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "nous stons du borinage.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "wandembrile.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "vive djan djan.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "le chant des septimans.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "lars von triers.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "nuper rosarum flores.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "pantomime.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "l'epreuve villageoise.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "marche de la gendarmerie.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "quand jean marche a sa ville.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "guillaume tell.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "allen die willen.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "dvin mtiete.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "a la volonte du peuple.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "valeureux.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "la ballade des cocus.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
 #### THE COMMONWEALTH ############################################################
 
 song = {
