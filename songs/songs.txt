@@ -2425,7 +2425,6 @@ song = {
 			tag = EQN
 			tag = ANT
 			tag = GOU
-			tag = ATL
 			tag = AZL
 			}
 		  }
@@ -2448,7 +2447,6 @@ song = {
               tag = EQN		  
 			  tag = ANT
 			  tag = GOU
-			  tag = ATL
 			  tag = AZL
 			    }
 			}
@@ -2505,7 +2503,6 @@ song = {
               tag = EQN		  
 			  tag = ANT
 			  tag = GOU
-			  tag = ATL
 			  tag = AZL
 			    }
 			}
@@ -2534,7 +2531,6 @@ song = {
               tag = EQN		  
 			  tag = ANT
 			  tag = GOU
-			  tag = ATL
 			  tag = AZL
 			    }
 			}
@@ -2549,31 +2545,6 @@ song = {
 		  factor = 0
 	      war = yes
 		}
-	}
-}
-song = {
-	name = "le combat de la danae.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { 
-			 OR = {
-			  tag = AMA
-              tag = EQN
-			  tag = ANT
-			  tag = GOU
-			  tag = ATL
-			  tag = AZL
-                }			  
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  war = yes
-			}
-		}	
 	}
 }
 song = {
@@ -2683,7 +2654,6 @@ song = {
 			tag = LOT
 			tag = ODO
 			tag = NAL
-			tag = ATL
 			tag = AZL
 			}
 		  }
@@ -2810,7 +2780,6 @@ song = {
 			  tag = LOT
               tag = ODO		  
 			  tag = NAL
-			  tag = ATL
 			  tag = AZL
 			    }
 			}
@@ -2838,7 +2807,6 @@ song = {
 			  tag = LOT
               tag = ODO		  
 			  tag = NAL
-			  tag = ATL
 			  tag = AZL
 			    }
 			}
@@ -3183,6 +3151,44 @@ song = {
 	}
 }
 song = {
+	name = "mon chere nouvelle amsterdam.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = ATL
+			tag = AZL
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "revenir.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = ATL
+			tag = AZL
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
 	name = "la fille d'ipanema gp.mp3"
 	chance = {
 		factor = 100
@@ -3208,7 +3214,124 @@ song = {
 	}
 }
 song = {
+	name = "revenir gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = ATL
+			  tag = AZL
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "melodie atlantien.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = ATL
+			  tag = AZL
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "pour une tete.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = ATL
+			  tag = AZL
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
 	name = "dans les hussards.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = ATL
+			  tag = AZL
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "alegretto molto marc.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = ATL
+			  tag = AZL
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "thermidor.mp3"
 	chance = {
 		factor = 100
 		modifier = {
