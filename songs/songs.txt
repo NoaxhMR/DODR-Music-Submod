@@ -2779,7 +2779,7 @@ song = {
 			NOT = { 
 			 OR = {
 			  tag = LOT
-              tag = ODO		  
+              tag = ODO
 			  tag = NAL
 			  tag = AZL
 			    }
@@ -3411,6 +3411,384 @@ song = {
 			NOT = { 
 			 OR = {
 			  tag = ATL
+			  tag = AZL
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "greensleeves.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = NAN
+			tag = HBE
+			tag = NMC
+			tag = AZL
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "when cannons are roaring.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = NAN
+			tag = HBE
+			tag = NMC
+			tag = AZL
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "under the harvest moon.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = NAN
+			tag = HBE
+			tag = NMC
+			tag = AZL
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "the farmer's boy.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = NAN
+			tag = HBE
+			tag = NMC
+			tag = AZL
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "john barleycorn.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = NAN
+			tag = HBE
+			tag = NMC
+			tag = AZL
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "jerusalem.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = NAN
+              tag = HBE		  
+			  tag = NMC
+			  tag = AZL
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "greensleeves gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = NAN
+              tag = HBE		  
+			  tag = NMC
+			  tag = AZL
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "i vow to thee my country.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = NAN
+              tag = HBE		  
+			  tag = NMC
+			  tag = AZL
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "john barleycorn gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = NAN
+              tag = HBE		  
+			  tag = NMC
+			  tag = AZL
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "lilibulero gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = NAN
+              tag = HBE		  
+			  tag = NMC
+			  tag = AZL
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "beornia ask of thyself.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = NAN
+              tag = HBE
+			  tag = NMC
+			  tag = AZL
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "the beornian grenadiers.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = NAN
+              tag = HBE
+			  tag = NMC
+			  tag = AZL
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "the lincolnshire poacher.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = NAN
+              tag = HBE
+			  tag = NMC
+			  tag = AZL
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "agincourt carol.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = NAN
+              tag = HBE
+			  tag = NMC
+			  tag = AZL
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "lillibulero war.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = NAN
+              tag = HBE
+			  tag = NMC
+			  tag = AZL
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "a mad world my masters.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = NAN
+              tag = HBE
+			  tag = NMC
 			  tag = AZL
                 }			  
 			}
