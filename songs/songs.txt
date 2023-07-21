@@ -3529,6 +3529,27 @@ song = {
 	}
 }
 song = {
+	name = "the shepherd's song.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = NAN
+			tag = HBE
+			tag = NMC
+			tag = AZL
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
 	name = "jerusalem.mp3"
 	chance = {
 		factor = 100
