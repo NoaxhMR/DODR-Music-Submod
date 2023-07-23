@@ -51,7 +51,7 @@ song = {
 			NOT = { 
 			  war = yes
 			}
-		}	
+		}		
 	}
 }
 song = {
@@ -3704,7 +3704,7 @@ song = {
 			NOT = { 
 			  war = yes
 			}
-		}	
+		}		
 	}
 }
 song = {
@@ -3727,7 +3727,7 @@ song = {
 			NOT = { 
 			  war = yes
 			}
-		}	
+		}		
 	}
 }
 song = {
@@ -3811,6 +3811,430 @@ song = {
               tag = HBE
 			  tag = NMC
 			  tag = AZL
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "la guaneña.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = SAN
+			tag = CAS
+			tag = GUY
+			tag = GRA
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "moliendo cafe.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = SAN
+			tag = CAS
+			tag = GUY
+			tag = GRA
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "la grey zuliana.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = SAN
+			tag = CAS
+			tag = GUY
+			tag = GRA
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "la pollera colora.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = SAN
+			tag = CAS
+			tag = GUY
+			tag = GRA
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "pajarillo.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = SAN
+			tag = CAS
+			tag = GUY
+			tag = GRA
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "cumbia con arpa.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = SAN
+			tag = CAS
+			tag = GUY
+			tag = GRA
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "granada tierra querida.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = SAN
+			tag = CAS
+			tag = GUY
+			tag = GRA
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "aureliana.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = SAN
+              tag = CAS		 
+			  tag = GUY
+			  tag = GRA
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "la pollera colora gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = SAN
+              tag = CAS	  
+			  tag = GUY
+			  tag = GRA
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "la guaneña gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = SAN
+              tag = CAS		  
+			  tag = GUY
+			  tag = GRA
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "la grey zuliana gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = SAN
+              tag = CAS		  
+			  tag = GUY
+			  tag = GRA
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "alma llanera gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = SAN
+              tag = CAS		  
+			  tag = GUY
+			  tag = GRA
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "granada tierra querida gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = SAN
+              tag = CAS		  
+			  tag = GUY
+			  tag = GRA
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "jaibana.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = SAN
+              tag = CAS
+			  tag = GUY
+			  tag = GRA
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "el indio y el conquistador.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = SAN
+              tag = CAS
+			  tag = GUY
+			  tag = GRA
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "batalla de carabobo.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = SAN
+              tag = CAS
+			  tag = GUY
+			  tag = GRA
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "pajarillo war.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = SAN
+              tag = CAS
+			  tag = GUY
+			  tag = GRA
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "vals del arias.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = SAN
+              tag = CAS
+			  tag = GUY
+			  tag = GRA
                 }			  
 			}
 		}
@@ -4240,7 +4664,7 @@ song = {
 			NOT = { 
 			  war = yes
 			}
-		}	
+		}			
 	}
 }
 song = {
@@ -4261,7 +4685,7 @@ song = {
 			NOT = { 
 			  war = yes
 			}
-		}	
+		}		
 	}
 }
 song = {
