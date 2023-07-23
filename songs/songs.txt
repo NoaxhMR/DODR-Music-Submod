@@ -4247,115 +4247,453 @@ song = {
 	}
 }
 song = {
-	name = "hej sokoly.mp3"
+	name = "hej sokoly minor.mp3"
 	chance = {
-		factor = 1
+		factor = 100
 		modifier = {
-        	factor = 100
-        	tag = PLC
-    	}
-    	modifier = {
-    		factor = 0
-    		NOT = { tag = PLC }
-    	}
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = PLC
+			tag = POL
+			tag = LIT
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "sowa.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = PLC
+			tag = POL
+			tag = LIT
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "z dawna polski tys krolowa.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = PLC
+			tag = POL
+			tag = LIT
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "w moim ogrodecku.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = PLC
+			tag = POL
+			tag = LIT
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "apeja sauliute.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = PLC
+			tag = POL
+			tag = LIT
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "oh grow you dry oak.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = PLC
+			tag = POL
+			tag = LIT
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "auga keime dagielis.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = PLC
+			tag = POL
+			tag = LIT
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "bog sie rodzi.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLC
+              tag = POL			  
+			  tag = LIT
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
 	}
 }
 song = {
 	name = "gaude mater polonie.mp3"
 	chance = {
-		factor = 1
+		factor = 100
 		modifier = {
-        	factor = 100
-        	tag = PLC
-    	}
-    	modifier = {
-    		factor = 0
-    		NOT = { tag = PLC }
-    	}
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLC
+              tag = POL			  
+			  tag = LIT
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
 	}
 }
 song = {
-	name = "bog sie rodzi.mp3"
+	name = "fantaisiel promptu.mp3"
 	chance = {
-		factor = 1
+		factor = 100
 		modifier = {
-        	factor = 100
-        	tag = PLC
-    	}
-    	modifier = {
-    		factor = 0
-    		NOT = { tag = PLC }
-    	}
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLC
+              tag = POL			  
+			  tag = LIT
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
 	}
 }
 song = {
-	name = "nie masz nad zolnierza.mp3"
+	name = "mysterious forest.mp3"
 	chance = {
-		factor = 1
+		factor = 100
 		modifier = {
-        	factor = 100
-        	tag = PLC
-    	}
-    	modifier = {
-    		factor = 0
-    		NOT = { tag = PLC }
-    	}
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLC
+              tag = POL			  
+			  tag = LIT
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "jura.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLC
+              tag = POL			  
+			  tag = LIT
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "boze cos polske.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLC
+              tag = POL			  
+			  tag = LIT
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "hej sokoly.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLC
+              tag = POL
+			  tag = LIT
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
 	}
 }
 song = {
 	name = "rota.mp3"
 	chance = {
-		factor = 1
+		factor = 100
 		modifier = {
-        	factor = 100
-        	tag = PLC
-    	}
-    	modifier = {
-    		factor = 0
-    		NOT = { tag = PLC }
-    	}
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLC
+              tag = POL
+			  tag = LIT
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
 	}
 }
 song = {
-	name = "bog sie rodzi.mp3"
+	name = "simtu kartu.mp3"
 	chance = {
-		factor = 1
+		factor = 100
 		modifier = {
-        	factor = 100
-        	tag = PLC
-    	}
-    	modifier = {
-    		factor = 0
-    		NOT = { tag = PLC }
-    	}
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLC
+              tag = POL
+			  tag = LIT
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
 	}
 }
 song = {
-	name = "zwolezerowie.mp3"
+	name = "oi sermuksnio.mp3"
 	chance = {
-		factor = 1
+		factor = 100
 		modifier = {
-        	factor = 100
-        	tag = PLC
-    	}
-    	modifier = {
-    		factor = 0
-    		NOT = { tag = PLC }
-    	}
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLC
+              tag = POL
+			  tag = LIT
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
 	}
 }
 song = {
-	name = "ciezkie czasy legionera.mp3"
+	name = "szara piechota.mp3"
 	chance = {
-		factor = 1
+		factor = 100
 		modifier = {
-        	factor = 100
-        	tag = PLC
-    	}
-    	modifier = {
-    		factor = 0
-    		NOT = { tag = PLC }
-    	}
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLC
+              tag = POL
+			  tag = LIT
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "ida iesni.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLC
+              tag = POL
+			  tag = LIT
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "marsz pierwszej brygady.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLC
+              tag = POL
+			  tag = LIT
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
 	}
 }
 song = {
