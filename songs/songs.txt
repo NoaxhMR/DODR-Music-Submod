@@ -4,9 +4,12 @@ song = {
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { 
-			  tag = INC  
+		  NOT = { 
+		   OR = {
+			tag = INC
+			tag = ARE
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -27,7 +30,10 @@ song = {
 		modifier = {
 		  factor = 0
 		  NOT = { 
-			tag = INC 
+		   OR = {
+			tag = INC
+			tag = ARE
+			}
 		  }
 		}
 		modifier = {
@@ -42,9 +48,12 @@ song = {
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { 
-			  tag = INC 
+		  NOT = { 
+		   OR = {
+			tag = INC
+			tag = ARE
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -60,9 +69,12 @@ song = {
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { 
-			  tag = INC 
+		  NOT = { 
+		   OR = {
+			tag = INC
+			tag = ARE
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -78,8 +90,12 @@ song = {
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { 
-			  tag = INC 
+		  NOT = { 
+		   OR = {
+			tag = INC
+			tag = ARE
+			}
+		  }
 			}
 		}
 		modifier = {
@@ -96,9 +112,12 @@ song = {
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { 
-			  tag = INC  
+		  NOT = { 
+		   OR = {
+			tag = INC
+			tag = ARE
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -118,9 +137,12 @@ song = {
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { 
-			  tag = INC 
+		  NOT = { 
+		   OR = {
+			tag = INC
+			tag = ARE
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -137,7 +159,10 @@ song = {
 		modifier = {
 		  factor = 0
 		  NOT = { 
-			tag = INC 
+		   OR = {
+			tag = INC
+			tag = ARE
+			}
 		  }
 		}
 		modifier = {
@@ -153,7 +178,10 @@ song = {
 		modifier = {
 		  factor = 0
 		  NOT = { 
-			tag = INC 
+		   OR = {
+			tag = INC
+			tag = ARE
+			}
 		  }
 		}
 		modifier = {
@@ -169,7 +197,10 @@ song = {
 		modifier = {
 		  factor = 0
 		  NOT = { 
-			tag = INC 
+		   OR = {
+			tag = INC
+			tag = ARE
+			}
 		  }
 		}
 		modifier = {
@@ -185,7 +216,10 @@ song = {
 		modifier = {
 		  factor = 0
 		  NOT = { 
-			tag = INC 
+		   OR = {
+			tag = INC
+			tag = ARE
+			}
 		  }
 		}
 		modifier = {
@@ -201,7 +235,10 @@ song = {
 		modifier = {
 		  factor = 0
 		  NOT = { 
-			tag = INC 
+		   OR = {
+			tag = INC
+			tag = ARE
+			}
 		  }
 		}
 		modifier = {
@@ -217,7 +254,10 @@ song = {
 		modifier = {
 		  factor = 0
 		  NOT = { 
-			tag = INC 
+		   OR = {
+			tag = INC
+			tag = ARE
+			}
 		  }
 		}
 		modifier = {
@@ -233,7 +273,10 @@ song = {
 		modifier = {
 		  factor = 0
 		  NOT = { 
-			tag = INC 
+		   OR = {
+			tag = INC
+			tag = ARE
+			}
 		  }
 		}
 		modifier = {
@@ -248,9 +291,12 @@ song = {
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { 
-			  tag = INC 
+		  NOT = { 
+		   OR = {
+			tag = INC
+			tag = ARE
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -266,9 +312,12 @@ song = {
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { 
-			  tag = INC 
+		  NOT = { 
+		   OR = {
+			tag = INC
+			tag = ARE
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -284,9 +333,12 @@ song = {
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { 
-			  tag = INC  
+		  NOT = { 
+		   OR = {
+			tag = INC
+			tag = ARE
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -306,9 +358,12 @@ song = {
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { 
-			  tag = INC  
+		  NOT = { 
+		   OR = {
+			tag = INC
+			tag = ARE
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -328,9 +383,12 @@ song = {
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { 
-			  tag = INC  
+		  NOT = { 
+		   OR = {
+			tag = INC
+			tag = ARE
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -350,9 +408,12 @@ song = {
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { 
-			  tag = INC  
+		  NOT = { 
+		   OR = {
+			tag = INC
+			tag = ARE
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -364,6 +425,369 @@ song = {
 		  factor = 0
 	      war = yes
 		}
+	}
+}
+song = {
+	name = "que doloroso.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = QUI
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "pasillo.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = QUI
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "el plebeyo.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = QUI
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "coloso gran chimu.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = QUI
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "reir llorando.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = QUI
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "tonada del chimo.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = QUI
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "corazon entristecido.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = QUI
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "el plebeyo gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+			tag = QUI
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "la flor de la canela.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+			tag = QUI
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "elegia.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+			tag = QUI
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "la pampa y la puna.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+			tag = QUI
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "nocturno.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+			tag = QUI
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "himno a paquisha.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+			tag = QUI
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "marcha a moran.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+			tag = QUI
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "los quiteños pasan.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+			tag = QUI
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "sesquincentenario.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+			tag = QUI
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "jauja.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+			tag = QUI
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
 	}
 }
 song = {
@@ -4367,7 +4791,7 @@ song = {
 	}
 }
 song = {
-	name = "auga keime dagielis.mp3"
+	name = "auga keime dagilelis.mp3"
 	chance = {
 		factor = 100
 		modifier = {
