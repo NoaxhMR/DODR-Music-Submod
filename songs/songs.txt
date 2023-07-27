@@ -531,6 +531,47 @@ song = {
 	}
 }
 song = {
+	name = "on the hills of manchuria.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = RUS
+			tag = NOV
+			tag = MUS
+			tag = MOS
+			tag = KOM
+			tag = GPE
+			tag = NTS
+			tag = UDM
+			tag = PSV
+			tag = BLO
+			tag = UGG
+			tag = VYA
+			tag = PRM
+			tag = PMY
+			tag = TVE
+			tag = RYA
+			tag = NZH
+			tag = SMO
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
 	name = "flight of the bumblebee.mp3"
 	chance = {
 		factor = 100
@@ -6364,3 +6405,268 @@ song = {
 			NOT = { tag = GAN }
     	}
 	}
+}
+song = {
+	name = "clair de lune.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "lacrimosa minor.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "moonlight sonata minor.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "gymnopedie.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "love dream.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "waltz no 2 minor.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "chopin nocturne.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "torrent.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "moonlight sonata gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "valse sentimentale.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "waltz of the flowers.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "waltz no 2.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "1812 overture finale.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "piano concerto main.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "can can.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "lacrimosa.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "dies irae verdi.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "dies irae mozart.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "danse macabre.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "ride of the valkyries.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "confutatis.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
