@@ -794,6 +794,594 @@ song = {
 	}
 }
 song = {
+	name = "sakura sakura.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = JAP
+			tag = YKT
+			tag = AIN
+			tag = KKN
+			tag = SEN
+			tag = KAG
+			tag = AIA
+			tag = HAC
+			tag = MOI
+			tag = RYU
+			tag = TKG
+			tag = MSH
+			tag = KAM
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "lullaby of takeda.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = JAP
+			tag = YKT
+			tag = AIN
+			tag = KKN
+			tag = SEN
+			tag = KAG
+			tag = AIA
+			tag = HAC
+			tag = MOI
+			tag = RYU
+			tag = TKG
+			tag = MSH
+			tag = KAM
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "soran bushi.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = JAP
+			tag = YKT
+			tag = AIN
+			tag = KKN
+			tag = SEN
+			tag = KAG
+			tag = AIA
+			tag = HAC
+			tag = MOI
+			tag = RYU
+			tag = TKG
+			tag = MSH
+			tag = KAM
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "lullaby of itsuki.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = JAP
+			tag = YKT
+			tag = AIN
+			tag = KKN
+			tag = SEN
+			tag = KAG
+			tag = AIA
+			tag = HAC
+			tag = MOI
+			tag = RYU
+			tag = TKG
+			tag = MSH
+			tag = KAM
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "rokudan no shirabe.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = JAP
+			tag = YKT
+			tag = AIN
+			tag = KKN
+			tag = SEN
+			tag = KAG
+			tag = AIA
+			tag = HAC
+			tag = MOI
+			tag = RYU
+			tag = TKG
+			tag = MSH
+			tag = KAM
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "fisherman song.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = JAP
+			tag = YKT
+			tag = AIN
+			tag = KKN
+			tag = SEN
+			tag = KAG
+			tag = AIA
+			tag = HAC
+			tag = MOI
+			tag = RYU
+			tag = TKG
+			tag = MSH
+			tag = KAM
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "kimigayo.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = JAP
+			tag = YKT
+			tag = AIN
+			tag = KKN
+			tag = SEN
+			tag = KAG
+			tag = AIA
+			tag = HAC
+			tag = MOI
+			tag = RYU
+			tag = TKG
+			tag = MSH
+			tag = KAM
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "lullaby of takeda gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = JAP
+			tag = YKT
+			tag = AIN
+			tag = KKN
+			tag = SEN
+			tag = KAG
+			tag = AIA
+			tag = HAC
+			tag = MOI
+			tag = RYU
+			tag = TKG
+			tag = MSH
+			tag = KAM
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "kojo no tsuki.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = JAP
+			tag = YKT
+			tag = AIN
+			tag = KKN
+			tag = SEN
+			tag = KAG
+			tag = AIA
+			tag = HAC
+			tag = MOI
+			tag = RYU
+			tag = TKG
+			tag = MSH
+			tag = KAM
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "aikoku koshinkyoku.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = JAP
+			tag = YKT
+			tag = AIN
+			tag = KKN
+			tag = SEN
+			tag = KAG
+			tag = AIA
+			tag = HAC
+			tag = MOI
+			tag = RYU
+			tag = TKG
+			tag = MSH
+			tag = KAM
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "warship march.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = JAP
+			tag = YKT
+			tag = AIN
+			tag = KKN
+			tag = SEN
+			tag = KAG
+			tag = AIA
+			tag = HAC
+			tag = MOI
+			tag = RYU
+			tag = TKG
+			tag = MSH
+			tag = KAM
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "umi yukaba.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = JAP
+			tag = YKT
+			tag = AIN
+			tag = KKN
+			tag = SEN
+			tag = KAG
+			tag = AIA
+			tag = HAC
+			tag = MOI
+			tag = RYU
+			tag = TKG
+			tag = MSH
+			tag = KAM
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "japan is coming for your ass.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = JAP
+			tag = YKT
+			tag = AIN
+			tag = KKN
+			tag = SEN
+			tag = KAG
+			tag = AIA
+			tag = HAC
+			tag = MOI
+			tag = RYU
+			tag = TKG
+			tag = MSH
+			tag = KAM
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "battotai.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = JAP
+			tag = YKT
+			tag = AIN
+			tag = KKN
+			tag = SEN
+			tag = KAG
+			tag = AIA
+			tag = HAC
+			tag = MOI
+			tag = RYU
+			tag = TKG
+			tag = MSH
+			tag = KAM
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "roei no uta.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = JAP
+			tag = YKT
+			tag = AIN
+			tag = KKN
+			tag = SEN
+			tag = KAG
+			tag = AIA
+			tag = HAC
+			tag = MOI
+			tag = RYU
+			tag = TKG
+			tag = MSH
+			tag = KAM
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "miya san miya san.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = JAP
+			tag = YKT
+			tag = AIN
+			tag = KKN
+			tag = SEN
+			tag = KAG
+			tag = AIA
+			tag = HAC
+			tag = MOI
+			tag = RYU
+			tag = TKG
+			tag = MSH
+			tag = KAM
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "doki no sakura.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = JAP
+			tag = YKT
+			tag = AIN
+			tag = KKN
+			tag = SEN
+			tag = KAG
+			tag = AIA
+			tag = HAC
+			tag = MOI
+			tag = RYU
+			tag = TKG
+			tag = MSH
+			tag = KAM
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "boshin march.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = JAP
+			tag = YKT
+			tag = AIN
+			tag = KKN
+			tag = SEN
+			tag = KAG
+			tag = AIA
+			tag = HAC
+			tag = MOI
+			tag = RYU
+			tag = TKG
+			tag = MSH
+			tag = KAM
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
 	name = "el condor pasa inca.mp3"
 	chance = {
 		factor = 100
