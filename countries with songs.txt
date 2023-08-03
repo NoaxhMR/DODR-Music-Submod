@@ -1,6 +1,7 @@
 sup this is the list of countries that have their own music
 
 EUROPE ==================================================================================
+= BURGUNDY
 = RUSSIAN COUNTRIES
 = ARAGON / LATIN EMPIRE
 = THE COMMONWEALTH
