@@ -1,4 +1,618 @@
 song = {
+	name = "reveillez vous picards.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = BRG
+			tag = PBG
+			tag = BOG
+			tag = CHA
+			tag = FLA
+			tag = NET
+			tag = HLL
+			tag = DIE
+			tag = DFR
+			tag = BRB
+			tag = LRR
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "tourdion gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = BRG
+			tag = PBG
+			tag = BOG
+			tag = CHA
+			tag = FLA
+			tag = NET
+			tag = HLL
+			tag = DIE
+			tag = DFR
+			tag = BRB
+			tag = LRR
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "barcarolle.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = BRG
+			tag = PBG
+			tag = BOG
+			tag = CHA
+			tag = FLA
+			tag = NET
+			tag = HLL
+			tag = DIE
+			tag = DFR
+			tag = BRB
+			tag = LRR
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "la dame en rose.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = BRG
+			tag = PBG
+			tag = BOG
+			tag = CHA
+			tag = FLA
+			tag = NET
+			tag = HLL
+			tag = DIE
+			tag = DFR
+			tag = BRB
+			tag = LRR
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "cancan burgundy.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = BRG
+			tag = PBG
+			tag = BOG
+			tag = CHA
+			tag = FLA
+			tag = NET
+			tag = HLL
+			tag = DIE
+			tag = DFR
+			tag = BRB
+			tag = LRR
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "la fille du tambour.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = BRG
+			tag = PBG
+			tag = BOG
+			tag = CHA
+			tag = FLA
+			tag = NET
+			tag = HLL
+			tag = DIE
+			tag = DFR
+			tag = BRB
+			tag = LRR
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "ik hou van holland gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = BRG
+			tag = PBG
+			tag = BOG
+			tag = CHA
+			tag = FLA
+			tag = NET
+			tag = HLL
+			tag = DIE
+			tag = DFR
+			tag = BRB
+			tag = LRR
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "tourdion.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = BRG
+			tag = PBG
+			tag = BOG
+			tag = CHA
+			tag = FLA
+			tag = NET
+			tag = HLL
+			tag = DIE
+			tag = DFR
+			tag = BRB
+			tag = LRR
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "t smidje.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = BRG
+			tag = PBG
+			tag = BOG
+			tag = CHA
+			tag = FLA
+			tag = NET
+			tag = HLL
+			tag = DIE
+			tag = DFR
+			tag = BRB
+			tag = LRR
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "ik hou van holland.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = BRG
+			tag = PBG
+			tag = BOG
+			tag = CHA
+			tag = FLA
+			tag = NET
+			tag = HLL
+			tag = DIE
+			tag = DFR
+			tag = BRB
+			tag = LRR
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "heer halewijn.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = BRG
+			tag = PBG
+			tag = BOG
+			tag = CHA
+			tag = FLA
+			tag = NET
+			tag = HLL
+			tag = DIE
+			tag = DFR
+			tag = BRB
+			tag = LRR
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "chant des etudiants.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = BRG
+			tag = PBG
+			tag = BOG
+			tag = CHA
+			tag = FLA
+			tag = NET
+			tag = HLL
+			tag = DIE
+			tag = DFR
+			tag = BRB
+			tag = LRR
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "aupres de ma blonde.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = BRG
+			tag = PBG
+			tag = BOG
+			tag = CHA
+			tag = FLA
+			tag = NET
+			tag = HLL
+			tag = DIE
+			tag = DFR
+			tag = BRB
+			tag = LRR
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "j'ai vu le loup.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = BRG
+			tag = PBG
+			tag = BOG
+			tag = CHA
+			tag = FLA
+			tag = NET
+			tag = HLL
+			tag = DIE
+			tag = DFR
+			tag = BRB
+			tag = LRR
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "reveillez vous picards war.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = BRG
+			tag = PBG
+			tag = BOG
+			tag = CHA
+			tag = FLA
+			tag = NET
+			tag = HLL
+			tag = DIE
+			tag = DFR
+			tag = BRB
+			tag = LRR
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "la strasbourgeoise.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = BRG
+			tag = PBG
+			tag = BOG
+			tag = CHA
+			tag = FLA
+			tag = NET
+			tag = HLL
+			tag = DIE
+			tag = DFR
+			tag = BRB
+			tag = LRR
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "j'ai vu le loup war.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = BRG
+			tag = PBG
+			tag = BOG
+			tag = CHA
+			tag = FLA
+			tag = NET
+			tag = HLL
+			tag = DIE
+			tag = DFR
+			tag = BRB
+			tag = LRR
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "het vendel moet marcheren.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = BRG
+			tag = PBG
+			tag = BOG
+			tag = CHA
+			tag = FLA
+			tag = NET
+			tag = HLL
+			tag = DIE
+			tag = DFR
+			tag = BRB
+			tag = LRR
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "alsace et lorraine.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = BRG
+			tag = PBG
+			tag = BOG
+			tag = CHA
+			tag = FLA
+			tag = NET
+			tag = HLL
+			tag = DIE
+			tag = DFR
+			tag = BRB
+			tag = LRR
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "lorraine.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = BRG
+			tag = PBG
+			tag = BOG
+			tag = CHA
+			tag = FLA
+			tag = NET
+			tag = HLL
+			tag = DIE
+			tag = DFR
+			tag = BRB
+			tag = LRR
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
 	name = "kalinka.mp3"
 	chance = {
 		factor = 100
