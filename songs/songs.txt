@@ -2021,89 +2021,6 @@ song = {
 	}
 }
 song = {
-	name = "intiq churin.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = INC
-			tag = ARE
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "melodias del norte de chile.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-			factor = 0
-		  NOT = { 
-		   OR = {
-			tag = INC
-			tag = ARE
-			}
-		  }
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  war = yes
-			}
-		}		
-	}
-}
-song = {
-	name = "el condor pasa marcha.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-			factor = 0
-		  NOT = { 
-		   OR = {
-			tag = INC
-			tag = ARE
-			}
-		  }
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  war = yes
-			}
-		}	
-	}
-}
-song = {
-	name = "tacna.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-			factor = 0
-		  NOT = { 
-		   OR = {
-			tag = INC
-			tag = ARE
-			}
-		  }
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  war = yes
-			}
-		}	
-	}
-}
-song = {
 	name = "valicha.mp3"
 	chance = {
 		factor = 100
@@ -2129,7 +2046,7 @@ song = {
 	}
 }
 song = {
-	name = "tupac amaru.mp3"
+	name = "charagua gp.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -2144,9 +2061,107 @@ song = {
 		modifier = {
 			factor = 0
 			NOT = { 
-			  war = yes
+			  is_greater_power = yes 
 			}
-		}	
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "la partida gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+			tag = INC
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "amanecer andino.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+			tag = INC
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "sikuri gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+			tag = INC
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "intiq churin.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = INC
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
 	}
 }
 song = {
@@ -2283,6 +2298,91 @@ song = {
 	}
 }
 song = {
+	name = "melodias del norte de chile.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+			tag = INC
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "el condor pasa marcha.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+			tag = INC
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "tacna.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+			tag = INC
+			tag = ARE
+			}
+		  }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "tupac amaru.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+			tag = INC
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
 	name = "valicha war.mp3"
 	chance = {
 		factor = 100
@@ -2322,106 +2422,6 @@ song = {
 			  war = yes
 			}
 		}	
-	}
-}
-song = {
-	name = "charagua gp.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-			factor = 0
-		  NOT = { 
-		   OR = {
-			tag = INC
-			tag = ARE
-			}
-		  }
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "la partida gp.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-			factor = 0
-		  NOT = { 
-		   OR = {
-			tag = INC
-			tag = ARE
-			}
-		  }
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "amanecer andino.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-			factor = 0
-		  NOT = { 
-		   OR = {
-			tag = INC
-			tag = ARE
-			}
-		  }
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "sikuri gp.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-			factor = 0
-		  NOT = { 
-		   OR = {
-			tag = INC
-			tag = ARE
-			}
-		  }
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
 	}
 }
 song = {
@@ -7609,86 +7609,6 @@ song = {
 	}
 }
 song = {
-	name = "clair de lune.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "lacrimosa minor.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "moonlight sonata minor.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "gymnopedie.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "love dream.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "waltz no 2 minor.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "chopin nocturne.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "torrent.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
 	name = "moonlight sonata gp.mp3"
 	chance = {
 		factor = 100
@@ -7794,6 +7714,86 @@ song = {
 			  is_greater_power = yes 
 			}
 		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "clair de lune.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "lacrimosa minor.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "moonlight sonata minor.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "gymnopedie.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "love dream.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "waltz no 2 minor.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "chopin nocturne.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "torrent.mp3"
+	chance = {
+		factor = 100
 		modifier = {
 		  factor = 0
 	      war = yes
