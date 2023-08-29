@@ -7641,7 +7641,7 @@ song = {
 	}
 }
 song = {
-	name = "waltz of the flowers.mp3"
+	name = "clair de lune gp.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -7673,7 +7673,7 @@ song = {
 	}
 }
 song = {
-	name = "1812 overture finale.mp3"
+	name = "love dream gp.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -7705,7 +7705,7 @@ song = {
 	}
 }
 song = {
-	name = "can can.mp3"
+	name = "pas de deux.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -7795,9 +7795,11 @@ song = {
 	chance = {
 		factor = 100
 		modifier = {
-		  factor = 0
-	      war = yes
-		}
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
 	}
 }
 song = {
