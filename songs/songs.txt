@@ -613,6 +613,649 @@ song = {
 	}
 }
 song = {
+	name = "vive henri iv gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = DUA
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "les toreadors.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = DUA
+			tag = ANF
+			tag = FRA
+			tag = ENG
+			tag = FRT
+			tag = DUC
+			tag = NTL
+			tag = AQT
+			tag = IRE
+			tag = BRT
+			tag = PRV
+			tag = AUV
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "carmen.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = DUA
+			tag = ANF
+			tag = FRA
+			tag = ENG
+			tag = FRT
+			tag = DUC
+			tag = NTL
+			tag = AQT
+			tag = IRE
+			tag = BRT
+			tag = PRV
+			tag = AUV
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "marche hongroise.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = DUA
+			tag = ANF
+			tag = FRA
+			tag = ENG
+			tag = FRT
+			tag = DUC
+			tag = NTL
+			tag = AQT
+			tag = IRE
+			tag = BRT
+			tag = PRV
+			tag = AUV
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "walk to the paradise garden.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = DUA
+			tag = ANF
+			tag = FRA
+			tag = ENG
+			tag = FRT
+			tag = DUC
+			tag = NTL
+			tag = AQT
+			tag = IRE
+			tag = BRT
+			tag = PRV
+			tag = AUV
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "salut d'amour.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = DUA
+			tag = ANF
+			tag = FRA
+			tag = ENG
+			tag = FRT
+			tag = DUC
+			tag = NTL
+			tag = AQT
+			tag = IRE
+			tag = BRT
+			tag = PRV
+			tag = AUV
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "gymnopedie dua.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = DUA
+			tag = ANF
+			tag = FRA
+			tag = ENG
+			tag = FRT
+			tag = DUC
+			tag = NTL
+			tag = AQT
+			tag = IRE
+			tag = BRT
+			tag = PRV
+			tag = AUV
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "le bouvier.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = DUA
+			tag = ANF
+			tag = FRA
+			tag = ENG
+			tag = FRT
+			tag = DUC
+			tag = NTL
+			tag = AQT
+			tag = IRE
+			tag = BRT
+			tag = PRV
+			tag = AUV
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "pique la baleine.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = DUA
+			tag = ANF
+			tag = FRA
+			tag = ENG
+			tag = FRT
+			tag = DUC
+			tag = NTL
+			tag = AQT
+			tag = IRE
+			tag = BRT
+			tag = PRV
+			tag = AUV
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "a begging i will go.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = DUA
+			tag = ANF
+			tag = FRA
+			tag = ENG
+			tag = FRT
+			tag = DUC
+			tag = NTL
+			tag = AQT
+			tag = IRE
+			tag = BRT
+			tag = PRV
+			tag = AUV
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "over the hills and far away.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = DUA
+			tag = ANF
+			tag = FRA
+			tag = ENG
+			tag = FRT
+			tag = DUC
+			tag = NTL
+			tag = AQT
+			tag = IRE
+			tag = BRT
+			tag = PRV
+			tag = AUV
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "the rising of the moon.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = DUA
+			tag = ANF
+			tag = FRA
+			tag = ENG
+			tag = FRT
+			tag = DUC
+			tag = NTL
+			tag = AQT
+			tag = IRE
+			tag = BRT
+			tag = PRV
+			tag = AUV
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "a l'entrada de temps clar.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = DUA
+			tag = ANF
+			tag = FRA
+			tag = ENG
+			tag = FRT
+			tag = DUC
+			tag = NTL
+			tag = AQT
+			tag = IRE
+			tag = BRT
+			tag = PRV
+			tag = AUV
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "pelot de hennenbont.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = DUA
+			tag = ANF
+			tag = FRA
+			tag = ENG
+			tag = FRT
+			tag = DUC
+			tag = NTL
+			tag = AQT
+			tag = IRE
+			tag = BRT
+			tag = PRV
+			tag = AUV
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "vive henri iv war.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = DUA
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "marche du royale soussonnais.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = DUA
+			tag = ANF
+			tag = FRA
+			tag = ENG
+			tag = FRT
+			tag = DUC
+			tag = NTL
+			tag = AQT
+			tag = IRE
+			tag = BRT
+			tag = PRV
+			tag = AUV
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "marche militaire anglois.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = DUA
+			tag = ANF
+			tag = FRA
+			tag = ENG
+			tag = FRT
+			tag = DUC
+			tag = NTL
+			tag = AQT
+			tag = IRE
+			tag = BRT
+			tag = PRV
+			tag = AUV
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "les bleus sont la.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = DUA
+			tag = ANF
+			tag = FRA
+			tag = ENG
+			tag = FRT
+			tag = DUC
+			tag = NTL
+			tag = AQT
+			tag = IRE
+			tag = BRT
+			tag = PRV
+			tag = AUV
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "libertat.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = DUA
+			tag = ANF
+			tag = FRA
+			tag = ENG
+			tag = FRT
+			tag = DUC
+			tag = NTL
+			tag = AQT
+			tag = IRE
+			tag = BRT
+			tag = PRV
+			tag = AUV
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "oro se do bheatha bhaile.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = DUA
+			tag = ANF
+			tag = FRA
+			tag = ENG
+			tag = FRT
+			tag = DUC
+			tag = NTL
+			tag = AQT
+			tag = IRE
+			tag = BRT
+			tag = PRV
+			tag = AUV
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "i vow to thee my country war.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = DUA
+			tag = ANF
+			tag = FRA
+			tag = ENG
+			tag = FRT
+			tag = DUC
+			tag = NTL
+			tag = AQT
+			tag = IRE
+			tag = BRT
+			tag = PRV
+			tag = AUV
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
 	name = "kalinka.mp3"
 	chance = {
 		factor = 100
