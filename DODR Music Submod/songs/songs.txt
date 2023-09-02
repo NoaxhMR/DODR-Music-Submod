@@ -2073,6 +2073,446 @@ song = {
 	}
 }
 song = {
+	name = "fado menor.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SPA
+			tag = ANA
+			tag = CST
+			tag = ATR
+			tag = GAL
+			tag = NAV
+			tag = POR
+			tag = SPC
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "recuerdos de la alhambra.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SPA
+			tag = ANA
+			tag = CST
+			tag = ATR
+			tag = GAL
+			tag = NAV
+			tag = POR
+			tag = SPC
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "el amor brujo.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SPA
+			tag = ANA
+			tag = CST
+			tag = ATR
+			tag = GAL
+			tag = NAV
+			tag = POR
+			tag = SPC
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "los esclavos felices.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SPA
+			tag = ANA
+			tag = CST
+			tag = ATR
+			tag = GAL
+			tag = NAV
+			tag = POR
+			tag = SPC
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "fandango.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SPA
+			tag = ANA
+			tag = CST
+			tag = ATR
+			tag = GAL
+			tag = NAV
+			tag = POR
+			tag = SPC
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "eres tao bonita.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SPA
+			tag = ANA
+			tag = CST
+			tag = ATR
+			tag = GAL
+			tag = NAV
+			tag = POR
+			tag = SPC
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "la carandilheira.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SPA
+			tag = ANA
+			tag = CST
+			tag = ATR
+			tag = GAL
+			tag = NAV
+			tag = POR
+			tag = SPC
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "barqueiro.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SPA
+			tag = ANA
+			tag = CST
+			tag = ATR
+			tag = GAL
+			tag = NAV
+			tag = POR
+			tag = SPC
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "la molinera.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SPA
+			tag = ANA
+			tag = CST
+			tag = ATR
+			tag = GAL
+			tag = NAV
+			tag = POR
+			tag = SPC
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "a la una yo naci.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SPA
+			tag = ANA
+			tag = CST
+			tag = ATR
+			tag = GAL
+			tag = NAV
+			tag = POR
+			tag = SPC
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "danza santana.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SPA
+			tag = ANA
+			tag = CST
+			tag = ATR
+			tag = GAL
+			tag = NAV
+			tag = POR
+			tag = SPC
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "deus patria rei.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SPA
+			tag = ANA
+			tag = CST
+			tag = ATR
+			tag = GAL
+			tag = NAV
+			tag = POR
+			tag = SPC
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "asi marcha el españa.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SPA
+			tag = ANA
+			tag = CST
+			tag = ATR
+			tag = GAL
+			tag = NAV
+			tag = POR
+			tag = SPC
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "diana de cadiz.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SPA
+			tag = ANA
+			tag = CST
+			tag = ATR
+			tag = GAL
+			tag = NAV
+			tag = POR
+			tag = SPC
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "fado das trincheiras.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SPA
+			tag = ANA
+			tag = CST
+			tag = ATR
+			tag = GAL
+			tag = NAV
+			tag = POR
+			tag = SPC
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "solidao.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SPA
+			tag = ANA
+			tag = CST
+			tag = ATR
+			tag = GAL
+			tag = NAV
+			tag = POR
+			tag = SPC
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
 	name = "sakura sakura.mp3"
 	chance = {
 		factor = 100
