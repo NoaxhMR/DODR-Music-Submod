@@ -4,6 +4,7 @@ EUROPE =========================================================================
 = BURGUNDY
 = DUAL MONARCHY (and other related countries)
 = RUSSIAN COUNTRIES
+= SPAIN
 = ARAGON / LATIN EMPIRE
 = THE COMMONWEALTH
 
