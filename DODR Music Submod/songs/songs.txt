@@ -2197,6 +2197,37 @@ song = {
 	}
 }
 song = {
+	name = "spaflavor.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SPA
+			tag = ANA
+			tag = CST
+			tag = ATR
+			tag = GAL
+			tag = NAV
+			tag = POR
+			tag = SPC
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
 	name = "fandango.mp3"
 	chance = {
 		factor = 100
@@ -7745,146 +7776,6 @@ song = {
 	}
 }
 song = {
-	name = "hej sokoly minor.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = PLC
-			tag = POL
-			tag = LIT
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "sowa.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = PLC
-			tag = POL
-			tag = LIT
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "z dawna polski tys krolowa.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = PLC
-			tag = POL
-			tag = LIT
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "w moim ogrodecku.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = PLC
-			tag = POL
-			tag = LIT
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "apeja sauliute.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = PLC
-			tag = POL
-			tag = LIT
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "oh grow you dry oak.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = PLC
-			tag = POL
-			tag = LIT
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "auga keime dagilelis.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = PLC
-			tag = POL
-			tag = LIT
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
 	name = "bog sie rodzi.mp3"
 	chance = {
 		factor = 100
@@ -8033,6 +7924,146 @@ song = {
 			NOT = { 
 			  is_greater_power = yes 
 			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "hej sokoly minor.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = PLC
+			tag = POL
+			tag = LIT
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "sowa.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = PLC
+			tag = POL
+			tag = LIT
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "z dawna polski tys krolowa.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = PLC
+			tag = POL
+			tag = LIT
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "w moim ogrodecku.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = PLC
+			tag = POL
+			tag = LIT
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "apeja sauliute.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = PLC
+			tag = POL
+			tag = LIT
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "oh grow you dry oak.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = PLC
+			tag = POL
+			tag = LIT
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "auga keime dagilelis.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = PLC
+			tag = POL
+			tag = LIT
+			}
+		  }
 		}
 		modifier = {
 		  factor = 0
@@ -8534,6 +8565,388 @@ song = {
 			 OR = {
 			  tag = ARA
               tag = ARI
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "bright moon gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+        	   tag = YLO
+			   tag = MJN
+			   tag = ZSA
+		       tag = GAN			  
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "fishing song zhourao gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+        	   tag = YLO
+			   tag = MJN
+			   tag = ZSA
+		       tag = GAN			  
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "zhuang theme gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+        	   tag = YLO
+			   tag = MJN
+			   tag = ZSA
+		       tag = GAN			  
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "zhourao orchestra 1.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+        	   tag = YLO
+			   tag = MJN
+			   tag = ZSA
+		       tag = GAN			  
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "flowers in the raining night.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+        	   tag = YLO
+			   tag = MJN
+			   tag = ZSA
+		       tag = GAN			  
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "the torment of a flower.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+        	   tag = YLO
+			   tag = MJN
+			   tag = ZSA
+		       tag = GAN			  
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "spring river.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+        	   tag = YLO
+			   tag = MJN
+			   tag = ZSA
+		       tag = GAN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "fisherman song zhourao.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+        	   tag = YLO
+			   tag = MJN
+			   tag = ZSA
+		       tag = GAN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "picking tea.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+        	   tag = YLO
+			   tag = MJN
+			   tag = ZSA
+		       tag = GAN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "tea melody.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+        	   tag = YLO
+			   tag = MJN
+			   tag = ZSA
+		       tag = GAN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "zhourao aboriginal.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+        	   tag = YLO
+			   tag = MJN
+			   tag = ZSA
+		       tag = GAN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "when that day comes.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+        	   tag = YLO
+			   tag = MJN
+			   tag = ZSA
+		       tag = GAN
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "to battle.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+        	   tag = YLO
+			   tag = MJN
+			   tag = ZSA
+		       tag = GAN
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "night raid.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+        	   tag = YLO
+			   tag = MJN
+			   tag = ZSA
+		       tag = GAN
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "indomitable spirit.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+        	   tag = YLO
+			   tag = MJN
+			   tag = ZSA
+		       tag = GAN
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "march of the steel torrent.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+        	   tag = YLO
+			   tag = MJN
+			   tag = ZSA
+		       tag = GAN
                 }			  
 			}
 		}
