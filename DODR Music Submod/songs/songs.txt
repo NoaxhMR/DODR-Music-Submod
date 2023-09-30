@@ -3923,6 +3923,222 @@ song = {
 	}
 }
 song = {
+	name = "la llorona gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "danzon_no2.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "dios nunca muere.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "el son de la negra.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "sobre las olas.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "huapango de moncayo.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
 	name = "huapango de moncayo minor.mp3"
 	chance = {
 		factor = 100
@@ -4155,222 +4371,6 @@ song = {
 			tag = YUC
 			}
 		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "la llorona gp.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-		    tag = CLM
-			tag = MEX
-			tag = LST
-			tag = AZT
-			tag = PUR
-			tag = JLS
-			tag = ZAP
-			tag = UCA
-			tag = ELS
-			tag = NIC
-			tag = GUA
-			tag = PNM
-			tag = YUC
-			}
-		  }
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "danzon_no2.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-		    tag = CLM
-			tag = MEX
-			tag = LST
-			tag = AZT
-			tag = PUR
-			tag = JLS
-			tag = ZAP
-			tag = UCA
-			tag = ELS
-			tag = NIC
-			tag = GUA
-			tag = PNM
-			tag = YUC
-			}
-		  }
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "dios nunca muere.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-		    tag = CLM
-			tag = MEX
-			tag = LST
-			tag = AZT
-			tag = PUR
-			tag = JLS
-			tag = ZAP
-			tag = UCA
-			tag = ELS
-			tag = NIC
-			tag = GUA
-			tag = PNM
-			tag = YUC
-			}
-		  }
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "el son de la negra.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-		    tag = CLM
-			tag = MEX
-			tag = LST
-			tag = AZT
-			tag = PUR
-			tag = JLS
-			tag = ZAP
-			tag = UCA
-			tag = ELS
-			tag = NIC
-			tag = GUA
-			tag = PNM
-			tag = YUC
-			}
-		  }
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "sobre las olas.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-		    tag = CLM
-			tag = MEX
-			tag = LST
-			tag = AZT
-			tag = PUR
-			tag = JLS
-			tag = ZAP
-			tag = UCA
-			tag = ELS
-			tag = NIC
-			tag = GUA
-			tag = PNM
-			tag = YUC
-			}
-		  }
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "huapango de moncayo.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-		    tag = CLM
-			tag = MEX
-			tag = LST
-			tag = AZT
-			tag = PUR
-			tag = JLS
-			tag = ZAP
-			tag = UCA
-			tag = ELS
-			tag = NIC
-			tag = GUA
-			tag = PNM
-			tag = YUC
-			}
-		  }
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
 		}
 		modifier = {
 		  factor = 0
