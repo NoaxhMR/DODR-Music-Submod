@@ -3487,7 +3487,6 @@ song = {
 			tag = ARE
 			}
 		  }
-			}
 		}
 		modifier = {
 			factor = 0
@@ -3924,13 +3923,27 @@ song = {
 	}
 }
 song = {
-	name = "adios mama carlota.mp3"
+	name = "huapango de moncayo minor.mp3"
 	chance = {
 		factor = 100
 		modifier = {
 		  factor = 0
 		  NOT = { 
-			tag = CLM 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
+			}
 		  }
 		}
 		modifier = {
@@ -3946,7 +3959,21 @@ song = {
 		modifier = {
 		  factor = 0
 		  NOT = { 
-			tag = CLM 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
+			}
 		  }
 		}
 		modifier = {
@@ -3956,13 +3983,27 @@ song = {
 	}
 }
 song = {
-	name = "cancion americana.mp3"
+	name = "la bikina.mp3"
 	chance = {
 		factor = 100
 		modifier = {
 		  factor = 0
 		  NOT = { 
-			tag = CLM 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
+			}
 		  }
 		}
 		modifier = {
@@ -3972,13 +4013,27 @@ song = {
 	}
 }
 song = {
-	name = "la adelita.mp3"
+	name = "caballito nicoyano.mp3"
 	chance = {
 		factor = 100
 		modifier = {
 		  factor = 0
 		  NOT = { 
-			tag = CLM 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
+			}
 		  }
 		}
 		modifier = {
@@ -3994,7 +4049,21 @@ song = {
 		modifier = {
 		  factor = 0
 		  NOT = { 
-			tag = CLM 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
+			}
 		  }
 		}
 		modifier = {
@@ -4004,13 +4073,27 @@ song = {
 	}
 }
 song = {
-	name = "los cangrejos.mp3"
+	name = "saqirsan.mp3"
 	chance = {
 		factor = 100
 		modifier = {
 		  factor = 0
 		  NOT = { 
-			tag = CLM 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
+			}
 		  }
 		}
 		modifier = {
@@ -4026,7 +4109,21 @@ song = {
 		modifier = {
 		  factor = 0
 		  NOT = { 
-			tag = CLM 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
+			}
 		  }
 		}
 		modifier = {
@@ -4042,7 +4139,21 @@ song = {
 		modifier = {
 		  factor = 0
 		  NOT = { 
-			tag = CLM 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
+			}
 		  }
 		}
 		modifier = {
@@ -4052,36 +4163,28 @@ song = {
 	}
 }
 song = {
-	name = "cielito lindo.mp3"
+	name = "la llorona gp.mp3"
 	chance = {
 		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { 
-			  tag = CLM  
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
-		}
 		modifier = {
 		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "cuarteto 1.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { 
-			  tag = CLM  
+		  NOT = { 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -4100,10 +4203,24 @@ song = {
 	chance = {
 		factor = 100
 		modifier = {
-			factor = 0
-			NOT = { 
-			  tag = CLM  
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -4122,10 +4239,24 @@ song = {
 	chance = {
 		factor = 100
 		modifier = {
-			factor = 0
-			NOT = { 
-			  tag = CLM  
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -4144,10 +4275,24 @@ song = {
 	chance = {
 		factor = 100
 		modifier = {
-			factor = 0
-			NOT = { 
-			  tag = CLM  
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -4162,14 +4307,28 @@ song = {
 	}
 }
 song = {
-	name = "Himno Nacional Mexicano.mp3"
+	name = "sobre las olas.mp3"
 	chance = {
 		factor = 100
 		modifier = {
-			factor = 0
-			NOT = { 
-			  tag = CLM  
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -4188,32 +4347,24 @@ song = {
 	chance = {
 		factor = 100
 		modifier = {
-			factor = 0
-			NOT = { 
-			  tag = CLM  
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
-		}
-		modifier = {
 		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "marcha-zacatecas.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { 
-			  tag = CLM  
+		  NOT = { 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -4232,10 +4383,24 @@ song = {
 	chance = {
 		factor = 100
 		modifier = {
-			factor = 0
-			NOT = { 
-			  tag = CLM 
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -4250,10 +4415,24 @@ song = {
 	chance = {
 		factor = 100
 		modifier = {
-			factor = 0
-			NOT = { 
-			  tag = CLM 
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -4268,10 +4447,24 @@ song = {
 	chance = {
 		factor = 100
 		modifier = {
-			factor = 0
-			NOT = { 
-			  tag = CLM 
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -4286,10 +4479,24 @@ song = {
 	chance = {
 		factor = 100
 		modifier = {
-			factor = 0
-			NOT = { 
-			  tag = CLM 
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -4304,10 +4511,24 @@ song = {
 	chance = {
 		factor = 100
 		modifier = {
-			factor = 0
-			NOT = { 
-			  tag = CLM 
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -4322,10 +4543,24 @@ song = {
 	chance = {
 		factor = 100
 		modifier = {
-			factor = 0
-			NOT = { 
-			  tag = CLM 
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = CLM
+			tag = MEX
+			tag = LST
+			tag = AZT
+			tag = PUR
+			tag = JLS
+			tag = ZAP
+			tag = UCA
+			tag = ELS
+			tag = NIC
+			tag = GUA
+			tag = PNM
+			tag = YUC
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -8226,7 +8461,7 @@ song = {
 	}
 }
 song = {
-	name = "el meu avi minor.mp3"
+	name = "el meu avi aragon.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -8321,54 +8556,7 @@ song = {
 	}
 }
 song = {
-	name = "magna mater.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { 
-			  tag = ARI
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
 	name = "o surdato nnammurato.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { 
-			 OR = {
-			  tag = ARI
-              tag = ARA			  
-			    }
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "el meu avi.mp3"
 	chance = {
 		factor = 100
 		modifier = {
