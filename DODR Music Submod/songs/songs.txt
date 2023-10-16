@@ -8461,112 +8461,35 @@ song = {
 	}
 }
 song = {
-	name = "el meu avi aragon.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = ARI
-			tag = ARA
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "mareta mareta.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = ARI
-			tag = ARA
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "o sole mio.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = ARI
-			tag = ARA
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "muntanyes del canigo.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = ARI
-			tag = ARA
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "virolai.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = ARI
-			tag = ARA
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
 	name = "o surdato nnammurato.mp3"
 	chance = {
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { 
-			 OR = {
-			  tag = ARI
-              tag = ARA			  
-			    }
+		  NOT = { 
+		   OR = {
+			tag = ARI
+			tag = ARA
+			tag = ITA
+			tag = ITC
+			tag = PIE
+			tag = LOM
+			tag = LUC
+			tag = MLT
+			tag = MOD
+			tag = PAP
+			tag = PAR
+			tag = SAR
+			tag = SIC
+			tag = SRD
+			tag = VEN
+			tag = CRS
+			tag = NAP
+			tag = FIU
+			tag = MAN
+			tag = TRE
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -8581,17 +8504,19 @@ song = {
 	}
 }
 song = {
-	name = "la santa espina.mp3"
+	name = "mareta mareta gp.mp3"
 	chance = {
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { 
-			 OR = {
-			  tag = ARI
-              tag = ARA			  
-			    }
+		  NOT = { 
+		   OR = {
+			tag = ARI
+			tag = ARA
+			tag = CAT
+			tag = NAV
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -8611,12 +8536,14 @@ song = {
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { 
-			 OR = {
-			  tag = ARI
-              tag = ARA			  
-			    }
+		  NOT = { 
+		   OR = {
+			tag = ARI
+			tag = ARA
+			tag = CAT
+			tag = NAV
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -8636,12 +8563,14 @@ song = {
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { 
-			 OR = {
-			  tag = ARI
-              tag = ARA			  
-			    }
+		  NOT = { 
+		   OR = {
+			tag = ARI
+			tag = ARA
+			tag = CAT
+			tag = NAV
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -8661,12 +8590,14 @@ song = {
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { 
-			 OR = {
-			  tag = ARI
-              tag = ARA			  
-			    }
+		  NOT = { 
+		   OR = {
+			tag = ARI
+			tag = ARA
+			tag = CAT
+			tag = NAV
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -8681,17 +8612,140 @@ song = {
 	}
 }
 song = {
-	name = "ay carmela aragon.mp3"
+	name = "el meu avi aragon.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = ARI
+			tag = ARA
+			tag = CAT
+			tag = NAV
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "mareta mareta.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = ARI
+			tag = ARA
+			tag = CAT
+			tag = NAV
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "o sole mio.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = ARI
+			tag = ARA
+			tag = ITA
+			tag = ITC
+			tag = PIE
+			tag = LOM
+			tag = LUC
+			tag = MLT
+			tag = MOD
+			tag = PAP
+			tag = PAR
+			tag = SAR
+			tag = SIC
+			tag = SRD
+			tag = VEN
+			tag = CRS
+			tag = NAP
+			tag = FIU
+			tag = MAN
+			tag = TRE
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "muntanyes del canigo.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = ARI
+			tag = ARA
+			tag = CAT
+			tag = NAV
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "virolai.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = ARI
+			tag = ARA
+			tag = CAT
+			tag = NAV
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "si me quieres escribir.mp3"
 	chance = {
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { 
-			 OR = {
-			  tag = ARA
-              tag = ARI
-                }			  
+		  NOT = { 
+		   OR = {
+			tag = ARI
+			tag = ARA
+			tag = CAT
+			tag = NAV
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -8703,6 +8757,45 @@ song = {
 }
 song = {
 	name = "bella ciao.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+			tag = ARI
+			tag = ARA
+			tag = ITA
+			tag = ITC
+			tag = PIE
+			tag = LOM
+			tag = LUC
+			tag = MLT
+			tag = MOD
+			tag = PAP
+			tag = PAR
+			tag = SAR
+			tag = SIC
+			tag = SRD
+			tag = VEN
+			tag = CRS
+			tag = NAP
+			tag = FIU
+			tag = MAN
+			tag = TRE
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}			
+	}
+}
+song = {
+	name = "ta pum.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -8723,17 +8816,19 @@ song = {
 	}
 }
 song = {
-	name = "la muixeranga.mp3"
+	name = "la muixeranga aragon.mp3"
 	chance = {
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { 
-			 OR = {
-			  tag = ARA
-              tag = ARI
-                }			  
+		  NOT = { 
+		   OR = {
+			tag = ARI
+			tag = ARA
+			tag = CAT
+			tag = NAV
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
@@ -8749,12 +8844,14 @@ song = {
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { 
-			 OR = {
-			  tag = ARA
-              tag = ARI
-                }			  
+		  NOT = { 
+		   OR = {
+			tag = ARI
+			tag = ARA
+			tag = CAT
+			tag = NAV
 			}
+		  }
 		}
 		modifier = {
 			factor = 0
