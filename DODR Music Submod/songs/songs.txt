@@ -6425,7 +6425,7 @@ song = {
 	}
 }
 song = {
-	name = "candombe.mp3"
+	name = "libertango minor.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -6706,7 +6706,7 @@ song = {
 	}
 }
 song = {
-	name = "bataille de charlemagne.mp3"
+	name = "hiver lotharien.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -6716,6 +6716,7 @@ song = {
 			  tag = LOT
               tag = ODO
 			  tag = NAL
+			  tag = ATL
 			  tag = AZL
                 }			  
 			}
@@ -6991,27 +6992,6 @@ song = {
 		  factor = 0
 	      war = yes
 		}
-	}
-}
-song = {
-	name = "dans les hussards.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { 
-			 OR = {
-			  tag = ATL
-			  tag = AZL
-                }			  
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  war = yes
-			}
-		}	
 	}
 }
 song = {
