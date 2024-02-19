@@ -1,4 +1,12 @@
 song = {
+	name = "the_coronation_titletheme.mp3"
+	chance = {
+		modifier = {
+			factor = -1
+		}
+	}
+}
+song = {
 	name = "reveillez vous picards.mp3"
 	chance = {
 		factor = 100
@@ -1278,6 +1286,468 @@ song = {
 	}
 }
 song = {
+	name = "nordika.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SCA
+			tag = SWE
+			tag = DEN
+			tag = NOR
+			tag = FIN
+			tag = SMI
+			tag = KAR
+			tag = ING
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "copenhaguen steam railway group.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SCA
+			tag = SWE
+			tag = DEN
+			tag = NOR
+			tag = FIN
+			tag = SMI
+			tag = KAR
+			tag = ING
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "champagne galop.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SCA
+			tag = SWE
+			tag = DEN
+			tag = NOR
+			tag = FIN
+			tag = SMI
+			tag = KAR
+			tag = ING
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "pastoral suite.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SCA
+			tag = SWE
+			tag = DEN
+			tag = NOR
+			tag = FIN
+			tag = SMI
+			tag = KAR
+			tag = ING
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "a winter's tale.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SCA
+			tag = SWE
+			tag = DEN
+			tag = NOR
+			tag = FIN
+			tag = SMI
+			tag = KAR
+			tag = ING
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "finlandia.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SCA
+			tag = FIN
+			tag = SMI
+			tag = KAR
+			tag = ING
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "ramund den unge.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SCA
+			tag = SWE
+			tag = DEN
+			tag = NOR
+			tag = FIN
+			tag = SMI
+			tag = KAR
+			tag = ING
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "poste.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SCA
+			tag = SWE
+			tag = DEN
+			tag = NOR
+			tag = FIN
+			tag = SMI
+			tag = KAR
+			tag = ING
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "svend nordmand - gadevisen.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SCA
+			tag = SWE
+			tag = DEN
+			tag = NOR
+			tag = FIN
+			tag = SMI
+			tag = KAR
+			tag = ING
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "den ljusa hallingen.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SCA
+			tag = SWE
+			tag = DEN
+			tag = NOR
+			tag = FIN
+			tag = SMI
+			tag = KAR
+			tag = ING
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "sakkijarven polkka minor.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SCA
+			tag = FIN
+			tag = SMI
+			tag = KAR
+			tag = ING
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "herr mannelig.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SCA
+			tag = SWE
+			tag = DEN
+			tag = NOR
+			tag = FIN
+			tag = SMI
+			tag = KAR
+			tag = ING
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "björneborgarnas marsch.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SCA
+			tag = SWE
+			tag = DEN
+			tag = NOR
+			tag = FIN
+			tag = SMI
+			tag = KAR
+			tag = ING
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}
+	}
+}
+song = {
+	name = "den tapre landsoldat.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SCA
+			tag = SWE
+			tag = DEN
+			tag = NOR
+			tag = FIN
+			tag = SMI
+			tag = KAR
+			tag = ING
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}
+	}
+}
+song = {
+	name = "amalienborg march.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SCA
+			tag = SWE
+			tag = DEN
+			tag = NOR
+			tag = FIN
+			tag = SMI
+			tag = KAR
+			tag = ING
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}
+	}
+}
+song = {
+	name = "carolus rex marsj.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SCA
+			tag = SWE
+			tag = DEN
+			tag = NOR
+			tag = FIN
+			tag = SMI
+			tag = KAR
+			tag = ING
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}
+	}
+}
+song = {
+	name = "sakkijarven polkka war.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = SCA
+			tag = FIN
+			tag = SMI
+			tag = KAR
+			tag = ING
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}
+	}
+}
+song = {
 	name = "kalinka.mp3"
 	chance = {
 		factor = 100
@@ -2544,186 +3014,6 @@ song = {
 	}
 }
 song = {
-	name = "sakura sakura.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-		    tag = JAP
-			tag = YKT
-			tag = AIN
-			tag = KKN
-			tag = SEN
-			tag = KAG
-			tag = AIA
-			tag = HAC
-			tag = MOI
-			tag = RYU
-			tag = TKG
-			tag = MSH
-			tag = KAM
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "lullaby of takeda.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-		    tag = JAP
-			tag = YKT
-			tag = AIN
-			tag = KKN
-			tag = SEN
-			tag = KAG
-			tag = AIA
-			tag = HAC
-			tag = MOI
-			tag = RYU
-			tag = TKG
-			tag = MSH
-			tag = KAM
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "soran bushi.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-		    tag = JAP
-			tag = YKT
-			tag = AIN
-			tag = KKN
-			tag = SEN
-			tag = KAG
-			tag = AIA
-			tag = HAC
-			tag = MOI
-			tag = RYU
-			tag = TKG
-			tag = MSH
-			tag = KAM
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "lullaby of itsuki.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-		    tag = JAP
-			tag = YKT
-			tag = AIN
-			tag = KKN
-			tag = SEN
-			tag = KAG
-			tag = AIA
-			tag = HAC
-			tag = MOI
-			tag = RYU
-			tag = TKG
-			tag = MSH
-			tag = KAM
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "rokudan no shirabe.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-		    tag = JAP
-			tag = YKT
-			tag = AIN
-			tag = KKN
-			tag = SEN
-			tag = KAG
-			tag = AIA
-			tag = HAC
-			tag = MOI
-			tag = RYU
-			tag = TKG
-			tag = MSH
-			tag = KAM
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "fisherman song.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-		    tag = JAP
-			tag = YKT
-			tag = AIN
-			tag = KKN
-			tag = SEN
-			tag = KAG
-			tag = AIA
-			tag = HAC
-			tag = MOI
-			tag = RYU
-			tag = TKG
-			tag = MSH
-			tag = KAM
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
 	name = "kimigayo.mp3"
 	chance = {
 		factor = 100
@@ -2932,6 +3222,186 @@ song = {
 			NOT = { 
 			  is_greater_power = yes 
 			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "sakura sakura.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = JAP
+			tag = YKT
+			tag = AIN
+			tag = KKN
+			tag = SEN
+			tag = KAG
+			tag = AIA
+			tag = HAC
+			tag = MOI
+			tag = RYU
+			tag = TKG
+			tag = MSH
+			tag = KAM
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "lullaby of takeda.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = JAP
+			tag = YKT
+			tag = AIN
+			tag = KKN
+			tag = SEN
+			tag = KAG
+			tag = AIA
+			tag = HAC
+			tag = MOI
+			tag = RYU
+			tag = TKG
+			tag = MSH
+			tag = KAM
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "soran bushi.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = JAP
+			tag = YKT
+			tag = AIN
+			tag = KKN
+			tag = SEN
+			tag = KAG
+			tag = AIA
+			tag = HAC
+			tag = MOI
+			tag = RYU
+			tag = TKG
+			tag = MSH
+			tag = KAM
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "lullaby of itsuki.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = JAP
+			tag = YKT
+			tag = AIN
+			tag = KKN
+			tag = SEN
+			tag = KAG
+			tag = AIA
+			tag = HAC
+			tag = MOI
+			tag = RYU
+			tag = TKG
+			tag = MSH
+			tag = KAM
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "rokudan no shirabe.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = JAP
+			tag = YKT
+			tag = AIN
+			tag = KKN
+			tag = SEN
+			tag = KAG
+			tag = AIA
+			tag = HAC
+			tag = MOI
+			tag = RYU
+			tag = TKG
+			tag = MSH
+			tag = KAM
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "fisherman song.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = JAP
+			tag = YKT
+			tag = AIN
+			tag = KKN
+			tag = SEN
+			tag = KAG
+			tag = AIA
+			tag = HAC
+			tag = MOI
+			tag = RYU
+			tag = TKG
+			tag = MSH
+			tag = KAM
+			}
+		  }
 		}
 		modifier = {
 		  factor = 0
@@ -3560,139 +4030,6 @@ song = {
 	}
 }
 song = {
-	name = "que doloroso.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = QUI
-			tag = ARE
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "pasillo.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = QUI
-			tag = ARE
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "el plebeyo.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = QUI
-			tag = ARE
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "coloso gran chimu.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = QUI
-			tag = ARE
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "reir llorando.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = QUI
-			tag = ARE
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "tonada del chimo.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = QUI
-			tag = ARE
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "corazon entristecido.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = QUI
-			tag = ARE
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
 	name = "el plebeyo gp.mp3"
 	chance = {
 		factor = 100
@@ -3817,6 +4154,121 @@ song = {
 		}
 	}
 }
+song = {
+	name = "que doloroso.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = QUI
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "pasillo.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = QUI
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "el plebeyo.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = QUI
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "coloso gran chimu.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = QUI
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "reir llorando.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = QUI
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "corazon entristecido.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = QUI
+			tag = ARE
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+
 song = {
 	name = "himno a paquisha.mp3"
 	chance = {
@@ -7499,7 +7951,7 @@ song = {
 	}
 }
 song = {
-	name = "la guaneña.mp3"
+	name = "la guaneña minor.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -7541,7 +7993,7 @@ song = {
 	}
 }
 song = {
-	name = "la grey zuliana.mp3"
+	name = "el tigrito.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -7562,7 +8014,7 @@ song = {
 	}
 }
 song = {
-	name = "la pollera colora.mp3"
+	name = "el regreso.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -7727,7 +8179,7 @@ song = {
 	}
 }
 song = {
-	name = "la grey zuliana gp.mp3"
+	name = "conticinio gp.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -9180,12 +9632,6 @@ song = {
 	chance = {
 		factor = 100
 		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
-		}
-		modifier = {
 		  factor = 0
 	      war = yes
 		}
@@ -9195,12 +9641,6 @@ song = {
 	name = "valse sentimentale.mp3"
 	chance = {
 		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
-		}
 		modifier = {
 		  factor = 0
 	      war = yes
@@ -9212,12 +9652,6 @@ song = {
 	chance = {
 		factor = 100
 		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
-		}
-		modifier = {
 		  factor = 0
 	      war = yes
 		}
@@ -9227,12 +9661,6 @@ song = {
 	name = "waltz no 2.mp3"
 	chance = {
 		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
-		}
 		modifier = {
 		  factor = 0
 	      war = yes
@@ -9244,12 +9672,6 @@ song = {
 	chance = {
 		factor = 100
 		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
-		}
-		modifier = {
 		  factor = 0
 	      war = yes
 		}
@@ -9260,12 +9682,6 @@ song = {
 	chance = {
 		factor = 100
 		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
-		}
-		modifier = {
 		  factor = 0
 	      war = yes
 		}
@@ -9275,12 +9691,6 @@ song = {
 	name = "pas de deux.mp3"
 	chance = {
 		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
-		}
 		modifier = {
 		  factor = 0
 	      war = yes
