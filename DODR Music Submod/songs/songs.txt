@@ -9226,7 +9226,7 @@ song = {
 	}
 }
 song = {
-	name = "bright moon gp.mp3"
+	name = "spring breeze gp.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -9430,7 +9430,7 @@ song = {
 	}
 }
 song = {
-	name = "picking tea.mp3"
+	name = "spring breeze minor.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -9472,7 +9472,7 @@ song = {
 	}
 }
 song = {
-	name = "zhourao aboriginal.mp3"
+	name = "inanay capuana.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -9605,26 +9605,6 @@ song = {
 			  war = yes
 			}
 		}	
-	}
-}
-song = {
-	name = "ming anthem.mp3"
-	chance = {
-		factor = 1
-		modifier = {
-        	factor = 100
-        	tag = YLO
-			tag = MJN
-			tag = ZSA
-			tag = GAN
-    	}
-    	modifier = {
-    		factor = 0
-    		NOT = { tag = YLO }
-	        NOT = { tag = MJN }
-			NOT = { tag = ZSA }
-			NOT = { tag = GAN }
-    	}
 	}
 }
 song = {
