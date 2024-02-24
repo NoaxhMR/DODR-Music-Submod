@@ -5841,223 +5841,7 @@ song = {
 	}
 }
 song = {
-	name = "la petite gayole.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = NBG
-			tag = CCA
-			tag = CPH
-			tag = CNF
-			tag = CFS
-			tag = CNL
-			tag = CBV
-			tag = CHV
-			tag = ARC
-			tag = AFN
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "aredge di malempre.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = NBG
-			tag = CCA
-			tag = CPH
-			tag = CNF
-			tag = CFS
-			tag = CNL
-			tag = CBV
-			tag = CHV
-			tag = ARC
-			tag = AFN
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "el scottisch del baraque des bos.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = NBG
-			tag = CCA
-			tag = CPH
-			tag = CNF
-			tag = CFS
-			tag = CNL
-			tag = CBV
-			tag = CHV
-			tag = ARC
-			tag = AFN
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "stokkendans.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = NBG
-			tag = CCA
-			tag = CPH
-			tag = CNF
-			tag = CFS
-			tag = CNL
-			tag = CBV
-			tag = CHV
-			tag = ARC
-			tag = AFN
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "bondjou wesen.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = NBG
-			tag = CCA
-			tag = CPH
-			tag = CNF
-			tag = CFS
-			tag = CNL
-			tag = CBV
-			tag = CHV
-			tag = ARC
-			tag = AFN
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "nous stons du borinage.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = NBG
-			tag = CCA
-			tag = CPH
-			tag = CNF
-			tag = CFS
-			tag = CNL
-			tag = CBV
-			tag = CHV
-			tag = ARC
-			tag = AFN
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "wandembrile.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = NBG
-			tag = CCA
-			tag = CPH
-			tag = CNF
-			tag = CFS
-			tag = CNL
-			tag = CBV
-			tag = CHV
-			tag = ARC
-			tag = AFN
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "vive djan djan.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = NBG
-			tag = CCA
-			tag = CPH
-			tag = CNF
-			tag = CFS
-			tag = CNL
-			tag = CBV
-			tag = CHV
-			tag = ARC
-			tag = AFN
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "le chant des septimans.mp3"
+	name = "du noveau monde.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -6222,7 +6006,7 @@ song = {
 	}
 }
 song = {
-	name = "marche de la gendarmerie.mp3"
+	name = "humoresque.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -6247,6 +6031,222 @@ song = {
 			NOT = { 
 			  is_greater_power = yes 
 			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "la petite gayole.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "aredge di malempre.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "el doudou.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "stokkendans.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "li bia bouquet.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "nous stons du borinage.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "wandembrile.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "vive djan djan.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = NBG
+			tag = CCA
+			tag = CPH
+			tag = CNF
+			tag = CFS
+			tag = CNL
+			tag = CBV
+			tag = CHV
+			tag = ARC
+			tag = AFN
+			}
+		  }
 		}
 		modifier = {
 		  factor = 0
@@ -6371,7 +6371,7 @@ song = {
 	}
 }
 song = {
-	name = "a la volonte du peuple.mp3"
+	name = "du noveau monde scherzo.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -6429,7 +6429,7 @@ song = {
 	}
 }
 song = {
-	name = "la ballade des cocus.mp3"
+	name = "marche des jouets.mp3"
 	chance = {
 		factor = 100
 		modifier = {
