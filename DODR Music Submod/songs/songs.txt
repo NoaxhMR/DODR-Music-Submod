@@ -1748,31 +1748,1392 @@ song = {
 	}
 }
 song = {
-	name = "kalinka.mp3"
+	name = "ode to joy.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = HLR
+			tag = GER
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "fur elise.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = HLR
+			tag = GER
+			tag = BOH
+			tag = AUS
+			tag = BAD
+			tag = BAV
+			tag = BEG
+			tag = BRA
+			tag = BRE
+			tag = BRN
+			tag = CAE
+			tag = FRM
+			tag = HAN
+			tag = HEK
+			tag = HES
+			tag = HOL
+			tag = MNR
+			tag = NAS
+			tag = NGF
+			tag = OLD
+			tag = POM
+			tag = RHI
+			tag = SAL
+			tag = SAX
+			tag = SCH
+			tag = SGF
+			tag = SIL
+			tag = SWI
+			tag = THU
+			tag = TIR
+			tag = CRN
+			tag = WES
+			tag = WUR
+			tag = GRB
+			tag = CFR
+			tag = FRW
+			tag = FRE
+			tag = ALS
+			tag = ASB
+			tag = AGR
+			tag = BAE
+			tag = FIO
+			tag = LUS
+			tag = MSZ
+			tag = SME
+			tag = OSN
+			tag = HSK
+			tag = ULM
+			tag = DSX
+			tag = ELX
+			tag = SWA
+			tag = THU
+			tag = GCF
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "adagio bach.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = HLR
+			tag = GER
+			tag = BOH
+			tag = AUS
+			tag = BAD
+			tag = BAV
+			tag = BEG
+			tag = BRA
+			tag = BRE
+			tag = BRN
+			tag = CAE
+			tag = FRM
+			tag = HAN
+			tag = HEK
+			tag = HES
+			tag = HOL
+			tag = MNR
+			tag = NAS
+			tag = NGF
+			tag = OLD
+			tag = POM
+			tag = RHI
+			tag = SAL
+			tag = SAX
+			tag = SCH
+			tag = SGF
+			tag = SIL
+			tag = SWI
+			tag = THU
+			tag = TIR
+			tag = CRN
+			tag = WES
+			tag = WUR
+			tag = GRB
+			tag = CFR
+			tag = FRW
+			tag = FRE
+			tag = ALS
+			tag = ASB
+			tag = AGR
+			tag = BAE
+			tag = FIO
+			tag = LUS
+			tag = MSZ
+			tag = SME
+			tag = OSN
+			tag = HSK
+			tag = ULM
+			tag = DSX
+			tag = ELX
+			tag = SWA
+			tag = THU
+			tag = GCF
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "la campanella.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = HLR
+			tag = GER
+			tag = BOH
+			tag = AUS
+			tag = BAD
+			tag = BAV
+			tag = BEG
+			tag = BRA
+			tag = BRE
+			tag = BRN
+			tag = CAE
+			tag = FRM
+			tag = HAN
+			tag = HEK
+			tag = HES
+			tag = HOL
+			tag = MNR
+			tag = NAS
+			tag = NGF
+			tag = OLD
+			tag = POM
+			tag = RHI
+			tag = SAL
+			tag = SAX
+			tag = SCH
+			tag = SGF
+			tag = SIL
+			tag = SWI
+			tag = THU
+			tag = TIR
+			tag = CRN
+			tag = WES
+			tag = WUR
+			tag = GRB
+			tag = CFR
+			tag = FRW
+			tag = FRE
+			tag = ALS
+			tag = ASB
+			tag = AGR
+			tag = BAE
+			tag = FIO
+			tag = LUS
+			tag = MSZ
+			tag = SME
+			tag = OSN
+			tag = HSK
+			tag = ULM
+			tag = DSX
+			tag = ELX
+			tag = SWA
+			tag = THU
+			tag = GCF
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "marriage of figaro.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = HLR
+			tag = GER
+			tag = BOH
+			tag = AUS
+			tag = BAD
+			tag = BAV
+			tag = BEG
+			tag = BRA
+			tag = BRE
+			tag = BRN
+			tag = CAE
+			tag = FRM
+			tag = HAN
+			tag = HEK
+			tag = HES
+			tag = HOL
+			tag = MNR
+			tag = NAS
+			tag = NGF
+			tag = OLD
+			tag = POM
+			tag = RHI
+			tag = SAL
+			tag = SAX
+			tag = SCH
+			tag = SGF
+			tag = SIL
+			tag = SWI
+			tag = THU
+			tag = TIR
+			tag = CRN
+			tag = WES
+			tag = WUR
+			tag = GRB
+			tag = CFR
+			tag = FRW
+			tag = FRE
+			tag = ALS
+			tag = ASB
+			tag = AGR
+			tag = BAE
+			tag = FIO
+			tag = LUS
+			tag = MSZ
+			tag = SME
+			tag = OSN
+			tag = HSK
+			tag = ULM
+			tag = DSX
+			tag = ELX
+			tag = SWA
+			tag = THU
+			tag = GCF
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "blue danube waltz.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = HLR
+			tag = GER
+			tag = BOH
+			tag = AUS
+			tag = BAD
+			tag = BAV
+			tag = BEG
+			tag = BRA
+			tag = BRE
+			tag = BRN
+			tag = CAE
+			tag = FRM
+			tag = HAN
+			tag = HEK
+			tag = HES
+			tag = HOL
+			tag = MNR
+			tag = NAS
+			tag = NGF
+			tag = OLD
+			tag = POM
+			tag = RHI
+			tag = SAL
+			tag = SAX
+			tag = SCH
+			tag = SGF
+			tag = SIL
+			tag = SWI
+			tag = THU
+			tag = TIR
+			tag = CRN
+			tag = WES
+			tag = WUR
+			tag = GRB
+			tag = CFR
+			tag = FRW
+			tag = FRE
+			tag = ALS
+			tag = ASB
+			tag = AGR
+			tag = BAE
+			tag = FIO
+			tag = LUS
+			tag = MSZ
+			tag = SME
+			tag = OSN
+			tag = HSK
+			tag = ULM
+			tag = DSX
+			tag = ELX
+			tag = SWA
+			tag = THU
+			tag = GCF
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "siegfreids funeral march.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = HLR
+			tag = GER
+			tag = BOH
+			tag = AUS
+			tag = BAD
+			tag = BAV
+			tag = BEG
+			tag = BRA
+			tag = BRE
+			tag = BRN
+			tag = CAE
+			tag = FRM
+			tag = HAN
+			tag = HEK
+			tag = HES
+			tag = HOL
+			tag = MNR
+			tag = NAS
+			tag = NGF
+			tag = OLD
+			tag = POM
+			tag = RHI
+			tag = SAL
+			tag = SAX
+			tag = SCH
+			tag = SGF
+			tag = SIL
+			tag = SWI
+			tag = THU
+			tag = TIR
+			tag = CRN
+			tag = WES
+			tag = WUR
+			tag = GRB
+			tag = CFR
+			tag = FRW
+			tag = FRE
+			tag = ALS
+			tag = ASB
+			tag = AGR
+			tag = BAE
+			tag = FIO
+			tag = LUS
+			tag = MSZ
+			tag = SME
+			tag = OSN
+			tag = HSK
+			tag = ULM
+			tag = DSX
+			tag = ELX
+			tag = SWA
+			tag = THU
+			tag = GCF
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "dvorak serenade.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = HLR
+			tag = GER
+			tag = BOH
+			tag = AUS
+			tag = BAD
+			tag = BAV
+			tag = BEG
+			tag = BRA
+			tag = BRE
+			tag = BRN
+			tag = CAE
+			tag = FRM
+			tag = HAN
+			tag = HEK
+			tag = HES
+			tag = HOL
+			tag = MNR
+			tag = NAS
+			tag = NGF
+			tag = OLD
+			tag = POM
+			tag = RHI
+			tag = SAL
+			tag = SAX
+			tag = SCH
+			tag = SGF
+			tag = SIL
+			tag = SWI
+			tag = THU
+			tag = TIR
+			tag = CRN
+			tag = WES
+			tag = WUR
+			tag = GRB
+			tag = CFR
+			tag = FRW
+			tag = FRE
+			tag = ALS
+			tag = ASB
+			tag = AGR
+			tag = BAE
+			tag = FIO
+			tag = LUS
+			tag = MSZ
+			tag = SME
+			tag = OSN
+			tag = HSK
+			tag = ULM
+			tag = DSX
+			tag = ELX
+			tag = SWA
+			tag = THU
+			tag = GCF
+			}
+		  }
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "die gedanken sind frei.mp3"
 	chance = {
 		factor = 100
 		modifier = {
 		  factor = 0
 		  NOT = { 
 		   OR = {
-		    tag = RUS
-			tag = NOV
-			tag = MUS
-			tag = MOS
-			tag = KOM
-			tag = GPE
-			tag = NTS
-			tag = UDM
-			tag = PSV
-			tag = BLO
-			tag = UGG
-			tag = VYA
-			tag = PRM
-			tag = PMY
-			tag = TVE
-			tag = RYA
-			tag = NZH
-			tag = SMO
+		    tag = HLR
+			tag = GER
+			tag = BOH
+			tag = AUS
+			tag = BAD
+			tag = BAV
+			tag = BEG
+			tag = BRA
+			tag = BRE
+			tag = BRN
+			tag = CAE
+			tag = FRM
+			tag = HAN
+			tag = HEK
+			tag = HES
+			tag = HOL
+			tag = MNR
+			tag = NAS
+			tag = NGF
+			tag = OLD
+			tag = POM
+			tag = RHI
+			tag = SAL
+			tag = SAX
+			tag = SCH
+			tag = SGF
+			tag = SIL
+			tag = SWI
+			tag = THU
+			tag = TIR
+			tag = CRN
+			tag = WES
+			tag = WUR
+			tag = GRB
+			tag = CFR
+			tag = FRW
+			tag = FRE
+			tag = ALS
+			tag = ASB
+			tag = AGR
+			tag = BAE
+			tag = FIO
+			tag = LUS
+			tag = MSZ
+			tag = SME
+			tag = OSN
+			tag = HSK
+			tag = ULM
+			tag = DSX
+			tag = ELX
+			tag = SWA
+			tag = THU
+			tag = GCF
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "heidenroslein.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = HLR
+			tag = GER
+			tag = BOH
+			tag = AUS
+			tag = BAD
+			tag = BAV
+			tag = BEG
+			tag = BRA
+			tag = BRE
+			tag = BRN
+			tag = CAE
+			tag = FRM
+			tag = HAN
+			tag = HEK
+			tag = HES
+			tag = HOL
+			tag = MNR
+			tag = NAS
+			tag = NGF
+			tag = OLD
+			tag = POM
+			tag = RHI
+			tag = SAL
+			tag = SAX
+			tag = SCH
+			tag = SGF
+			tag = SIL
+			tag = SWI
+			tag = THU
+			tag = TIR
+			tag = CRN
+			tag = WES
+			tag = WUR
+			tag = GRB
+			tag = CFR
+			tag = FRW
+			tag = FRE
+			tag = ALS
+			tag = ASB
+			tag = AGR
+			tag = BAE
+			tag = FIO
+			tag = LUS
+			tag = MSZ
+			tag = SME
+			tag = OSN
+			tag = HSK
+			tag = ULM
+			tag = DSX
+			tag = ELX
+			tag = SWA
+			tag = THU
+			tag = GCF
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "ich hab die nacht getraumet.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = HLR
+			tag = GER
+			tag = BOH
+			tag = AUS
+			tag = BAD
+			tag = BAV
+			tag = BEG
+			tag = BRA
+			tag = BRE
+			tag = BRN
+			tag = CAE
+			tag = FRM
+			tag = HAN
+			tag = HEK
+			tag = HES
+			tag = HOL
+			tag = MNR
+			tag = NAS
+			tag = NGF
+			tag = OLD
+			tag = POM
+			tag = RHI
+			tag = SAL
+			tag = SAX
+			tag = SCH
+			tag = SGF
+			tag = SIL
+			tag = SWI
+			tag = THU
+			tag = TIR
+			tag = CRN
+			tag = WES
+			tag = WUR
+			tag = GRB
+			tag = CFR
+			tag = FRW
+			tag = FRE
+			tag = ALS
+			tag = ASB
+			tag = AGR
+			tag = BAE
+			tag = FIO
+			tag = LUS
+			tag = MSZ
+			tag = SME
+			tag = OSN
+			tag = HSK
+			tag = ULM
+			tag = DSX
+			tag = ELX
+			tag = SWA
+			tag = THU
+			tag = GCF
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "die loreley.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = HLR
+			tag = GER
+			tag = BOH
+			tag = AUS
+			tag = BAD
+			tag = BAV
+			tag = BEG
+			tag = BRA
+			tag = BRE
+			tag = BRN
+			tag = CAE
+			tag = FRM
+			tag = HAN
+			tag = HEK
+			tag = HES
+			tag = HOL
+			tag = MNR
+			tag = NAS
+			tag = NGF
+			tag = OLD
+			tag = POM
+			tag = RHI
+			tag = SAL
+			tag = SAX
+			tag = SCH
+			tag = SGF
+			tag = SIL
+			tag = SWI
+			tag = THU
+			tag = TIR
+			tag = CRN
+			tag = WES
+			tag = WUR
+			tag = GRB
+			tag = CFR
+			tag = FRW
+			tag = FRE
+			tag = ALS
+			tag = ASB
+			tag = AGR
+			tag = BAE
+			tag = FIO
+			tag = LUS
+			tag = MSZ
+			tag = SME
+			tag = OSN
+			tag = HSK
+			tag = ULM
+			tag = DSX
+			tag = ELX
+			tag = SWA
+			tag = THU
+			tag = GCF
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "wir ziehen uber die strassen.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = HLR
+			tag = GER
+			tag = BOH
+			tag = AUS
+			tag = BAD
+			tag = BAV
+			tag = BEG
+			tag = BRA
+			tag = BRE
+			tag = BRN
+			tag = CAE
+			tag = FRM
+			tag = HAN
+			tag = HEK
+			tag = HES
+			tag = HOL
+			tag = MNR
+			tag = NAS
+			tag = NGF
+			tag = OLD
+			tag = POM
+			tag = RHI
+			tag = SAL
+			tag = SAX
+			tag = SCH
+			tag = SGF
+			tag = SIL
+			tag = SWI
+			tag = THU
+			tag = TIR
+			tag = CRN
+			tag = WES
+			tag = WUR
+			tag = GRB
+			tag = CFR
+			tag = FRW
+			tag = FRE
+			tag = ALS
+			tag = ASB
+			tag = AGR
+			tag = BAE
+			tag = FIO
+			tag = LUS
+			tag = MSZ
+			tag = SME
+			tag = OSN
+			tag = HSK
+			tag = ULM
+			tag = DSX
+			tag = ELX
+			tag = SWA
+			tag = THU
+			tag = GCF
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "es fuhrt uber den main.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = HLR
+			tag = GER
+			tag = BOH
+			tag = AUS
+			tag = BAD
+			tag = BAV
+			tag = BEG
+			tag = BRA
+			tag = BRE
+			tag = BRN
+			tag = CAE
+			tag = FRM
+			tag = HAN
+			tag = HEK
+			tag = HES
+			tag = HOL
+			tag = MNR
+			tag = NAS
+			tag = NGF
+			tag = OLD
+			tag = POM
+			tag = RHI
+			tag = SAL
+			tag = SAX
+			tag = SCH
+			tag = SGF
+			tag = SIL
+			tag = SWI
+			tag = THU
+			tag = TIR
+			tag = CRN
+			tag = WES
+			tag = WUR
+			tag = GRB
+			tag = CFR
+			tag = FRW
+			tag = FRE
+			tag = ALS
+			tag = ASB
+			tag = AGR
+			tag = BAE
+			tag = FIO
+			tag = LUS
+			tag = MSZ
+			tag = SME
+			tag = OSN
+			tag = HSK
+			tag = ULM
+			tag = DSX
+			tag = ELX
+			tag = SWA
+			tag = THU
+			tag = GCF
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "wo alle strassen enden.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = HLR
+			tag = GER
+			tag = BOH
+			tag = AUS
+			tag = BAD
+			tag = BAV
+			tag = BEG
+			tag = BRA
+			tag = BRE
+			tag = BRN
+			tag = CAE
+			tag = FRM
+			tag = HAN
+			tag = HEK
+			tag = HES
+			tag = HOL
+			tag = MNR
+			tag = NAS
+			tag = NGF
+			tag = OLD
+			tag = POM
+			tag = RHI
+			tag = SAL
+			tag = SAX
+			tag = SCH
+			tag = SGF
+			tag = SIL
+			tag = SWI
+			tag = THU
+			tag = TIR
+			tag = CRN
+			tag = WES
+			tag = WUR
+			tag = GRB
+			tag = CFR
+			tag = FRW
+			tag = FRE
+			tag = ALS
+			tag = ASB
+			tag = AGR
+			tag = BAE
+			tag = FIO
+			tag = LUS
+			tag = MSZ
+			tag = SME
+			tag = OSN
+			tag = HSK
+			tag = ULM
+			tag = DSX
+			tag = ELX
+			tag = SWA
+			tag = THU
+			tag = GCF
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "die grenzwacht hielt im osten.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = HLR
+			tag = GER
+			tag = BOH
+			tag = AUS
+			tag = BAD
+			tag = BAV
+			tag = BEG
+			tag = BRA
+			tag = BRE
+			tag = BRN
+			tag = CAE
+			tag = FRM
+			tag = HAN
+			tag = HEK
+			tag = HES
+			tag = HOL
+			tag = MNR
+			tag = NAS
+			tag = NGF
+			tag = OLD
+			tag = POM
+			tag = RHI
+			tag = SAL
+			tag = SAX
+			tag = SCH
+			tag = SGF
+			tag = SIL
+			tag = SWI
+			tag = THU
+			tag = TIR
+			tag = CRN
+			tag = WES
+			tag = WUR
+			tag = GRB
+			tag = CFR
+			tag = FRW
+			tag = FRE
+			tag = ALS
+			tag = ASB
+			tag = AGR
+			tag = BAE
+			tag = FIO
+			tag = LUS
+			tag = MSZ
+			tag = SME
+			tag = OSN
+			tag = HSK
+			tag = ULM
+			tag = DSX
+			tag = ELX
+			tag = SWA
+			tag = THU
+			tag = GCF
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "sarabande.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = HLR
+			tag = GER
+			tag = BOH
+			tag = AUS
+			tag = BAD
+			tag = BAV
+			tag = BEG
+			tag = BRA
+			tag = BRE
+			tag = BRN
+			tag = CAE
+			tag = FRM
+			tag = HAN
+			tag = HEK
+			tag = HES
+			tag = HOL
+			tag = MNR
+			tag = NAS
+			tag = NGF
+			tag = OLD
+			tag = POM
+			tag = RHI
+			tag = SAL
+			tag = SAX
+			tag = SCH
+			tag = SGF
+			tag = SIL
+			tag = SWI
+			tag = THU
+			tag = TIR
+			tag = CRN
+			tag = WES
+			tag = WUR
+			tag = GRB
+			tag = CFR
+			tag = FRW
+			tag = FRE
+			tag = ALS
+			tag = ASB
+			tag = AGR
+			tag = BAE
+			tag = FIO
+			tag = LUS
+			tag = MSZ
+			tag = SME
+			tag = OSN
+			tag = HSK
+			tag = ULM
+			tag = DSX
+			tag = ELX
+			tag = SWA
+			tag = THU
+			tag = GCF
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "moonlight sonata 3rd movement.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = HLR
+			tag = GER
+			tag = BOH
+			tag = AUS
+			tag = BAD
+			tag = BAV
+			tag = BEG
+			tag = BRA
+			tag = BRE
+			tag = BRN
+			tag = CAE
+			tag = FRM
+			tag = HAN
+			tag = HEK
+			tag = HES
+			tag = HOL
+			tag = MNR
+			tag = NAS
+			tag = NGF
+			tag = OLD
+			tag = POM
+			tag = RHI
+			tag = SAL
+			tag = SAX
+			tag = SCH
+			tag = SGF
+			tag = SIL
+			tag = SWI
+			tag = THU
+			tag = TIR
+			tag = CRN
+			tag = WES
+			tag = WUR
+			tag = GRB
+			tag = CFR
+			tag = FRW
+			tag = FRE
+			tag = ALS
+			tag = ASB
+			tag = AGR
+			tag = BAE
+			tag = FIO
+			tag = LUS
+			tag = MSZ
+			tag = SME
+			tag = OSN
+			tag = HSK
+			tag = ULM
+			tag = DSX
+			tag = ELX
+			tag = SWA
+			tag = THU
+			tag = GCF
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}song = {
+	name = "unser liebe fraue.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = HLR
+			tag = GER
+			tag = BOH
+			tag = AUS
+			tag = BAD
+			tag = BAV
+			tag = BEG
+			tag = BRA
+			tag = BRE
+			tag = BRN
+			tag = CAE
+			tag = FRM
+			tag = HAN
+			tag = HEK
+			tag = HES
+			tag = HOL
+			tag = MNR
+			tag = NAS
+			tag = NGF
+			tag = OLD
+			tag = POM
+			tag = RHI
+			tag = SAL
+			tag = SAX
+			tag = SCH
+			tag = SGF
+			tag = SIL
+			tag = SWI
+			tag = THU
+			tag = TIR
+			tag = CRN
+			tag = WES
+			tag = WUR
+			tag = GRB
+			tag = CFR
+			tag = FRW
+			tag = FRE
+			tag = ALS
+			tag = ASB
+			tag = AGR
+			tag = BAE
+			tag = FIO
+			tag = LUS
+			tag = MSZ
+			tag = SME
+			tag = OSN
+			tag = HSK
+			tag = ULM
+			tag = DSX
+			tag = ELX
+			tag = SWA
+			tag = THU
+			tag = GCF
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "beethoven allegretto.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+		  NOT = { 
+		   OR = {
+		    tag = HLR
+			tag = GER
+			tag = BOH
+			tag = AUS
+			tag = BAD
+			tag = BAV
+			tag = BEG
+			tag = BRA
+			tag = BRE
+			tag = BRN
+			tag = CAE
+			tag = FRM
+			tag = HAN
+			tag = HEK
+			tag = HES
+			tag = HOL
+			tag = MNR
+			tag = NAS
+			tag = NGF
+			tag = OLD
+			tag = POM
+			tag = RHI
+			tag = SAL
+			tag = SAX
+			tag = SCH
+			tag = SGF
+			tag = SIL
+			tag = SWI
+			tag = THU
+			tag = TIR
+			tag = CRN
+			tag = WES
+			tag = WUR
+			tag = GRB
+			tag = CFR
+			tag = FRW
+			tag = FRE
+			tag = ALS
+			tag = ASB
+			tag = AGR
+			tag = BAE
+			tag = FIO
+			tag = LUS
+			tag = MSZ
+			tag = SME
+			tag = OSN
+			tag = HSK
+			tag = ULM
+			tag = DSX
+			tag = ELX
+			tag = SWA
+			tag = THU
+			tag = GCF
 			}
 		  }
 		}
@@ -5409,438 +6770,6 @@ song = {
 	}
 }
 song = {
-	name = "la danse de mardi gras.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = PLA
-			tag = LOU
-			tag = OUM
-			tag = ARC
-			tag = AFN
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "tit galop pour mamou.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = PLA
-			tag = LOU
-			tag = OUM
-			tag = ARC
-			tag = AFN
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "dixie cadien.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = PLA
-			tag = LOU
-			tag = OUM
-			tag = ARC
-			tag = AFN
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "lafayette waltz.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = PLA
-			tag = LOU
-			tag = OUM
-			tag = ARC
-			tag = AFN
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "les haricots sont pas sales.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = PLA
-			tag = LOU
-			tag = OUM
-			tag = ARC
-			tag = AFN
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "a la claire fountain.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = PLA
-			tag = LOU
-			tag = OUM
-			tag = ARC
-			tag = AFN
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "c'est l'aviron.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = PLA
-			tag = LOU
-			tag = OUM
-			tag = ARC
-			tag = AFN
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "lorena.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = PLA
-			tag = LOU
-			tag = OUM
-			tag = ARC
-			tag = AFN
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "belle.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { 
-			 OR = {
-			  tag = PLA
-              tag = LOU			  
-			  tag = OUM
-			  tag = ARC
-			  tag = AFN
-			    }
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "la belle et le capitaine.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { 
-			 OR = {
-			  tag = PLA
-              tag = LOU			  
-			  tag = OUM
-			  tag = ARC
-			  tag = AFN
-			    }
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "dixie gp.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { 
-			 OR = {
-			  tag = PLA
-              tag = LOU			  
-			  tag = OUM
-			  tag = ARC
-			  tag = AFN
-			    }
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "danse frontaliere.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { 
-			 OR = {
-			  tag = PLA
-              tag = LOU			  
-			  tag = OUM
-			  tag = ARC
-			  tag = AFN
-			    }
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  is_greater_power = yes 
-			}
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "maison du soleil levant.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { 
-			 OR = {
-			  tag = PLA
-              tag = LOU
-			  tag = OUM
-			  tag = ARC
-			  tag = AFN
-                }			  
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  war = yes
-			}
-		}	
-	}
-}
-song = {
-	name = "dixie war.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { 
-			 OR = {
-			  tag = PLA
-              tag = LOU
-			  tag = OUM
-			  tag = ARC
-			  tag = AFN
-                }			  
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  war = yes
-			}
-		}	
-	}
-}
-song = {
-	name = "marche du prince.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { 
-			 OR = {
-			  tag = PLA
-              tag = LOU
-			  tag = OUM
-			  tag = ARC
-			  tag = AFN
-                }			  
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  war = yes
-			}
-		}	
-	}
-}
-song = {
-	name = "marche de saintonge.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { 
-			 OR = {
-			  tag = PLA
-              tag = LOU
-			  tag = OUM
-			  tag = ARC
-			  tag = AFN
-                }			  
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  war = yes
-			}
-		}	
-	}
-}
-song = {
-	name = "marche de zurlauben.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { 
-			 OR = {
-			  tag = PLA
-              tag = LOU
-			  tag = OUM
-			  tag = ARC
-			  tag = AFN
-                }			  
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  war = yes
-			}
-		}	
-	}
-}
-song = {
-	name = "danse de village.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { 
-			 OR = {
-			  tag = PLA
-              tag = LOU
-			  tag = OUM
-			  tag = ARC
-			  tag = AFN
-                }			  
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-			  war = yes
-			}
-		}	
-	}
-}
-song = {
 	name = "du noveau monde.mp3"
 	chance = {
 		factor = 100
@@ -6446,6 +7375,438 @@ song = {
 			tag = CHV
 			tag = ARC
 			tag = AFN
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "belle.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLA
+              tag = LOU			  
+			  tag = OUM
+			  tag = ARC
+			  tag = AFN
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "la belle et le capitaine.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLA
+              tag = LOU			  
+			  tag = OUM
+			  tag = ARC
+			  tag = AFN
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "dixie gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLA
+              tag = LOU			  
+			  tag = OUM
+			  tag = ARC
+			  tag = AFN
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "danse frontaliere.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLA
+              tag = LOU			  
+			  tag = OUM
+			  tag = ARC
+			  tag = AFN
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "la danse de mardi gras.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = PLA
+			tag = LOU
+			tag = OUM
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "tit galop pour mamou.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = PLA
+			tag = LOU
+			tag = OUM
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "dixie cadien.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = PLA
+			tag = LOU
+			tag = OUM
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "lafayette waltz.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = PLA
+			tag = LOU
+			tag = OUM
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "les haricots sont pas sales.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = PLA
+			tag = LOU
+			tag = OUM
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "a la claire fountain.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = PLA
+			tag = LOU
+			tag = OUM
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "c'est l'aviron.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = PLA
+			tag = LOU
+			tag = OUM
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "lorena.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = PLA
+			tag = LOU
+			tag = OUM
+			tag = ARC
+			tag = AFN
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "maison du soleil levant.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLA
+              tag = LOU
+			  tag = OUM
+			  tag = ARC
+			  tag = AFN
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "dixie war.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLA
+              tag = LOU
+			  tag = OUM
+			  tag = ARC
+			  tag = AFN
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "marche du prince.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLA
+              tag = LOU
+			  tag = OUM
+			  tag = ARC
+			  tag = AFN
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "marche de saintonge.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLA
+              tag = LOU
+			  tag = OUM
+			  tag = ARC
+			  tag = AFN
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "marche de zurlauben.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLA
+              tag = LOU
+			  tag = OUM
+			  tag = ARC
+			  tag = AFN
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "danse de village.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+			  tag = PLA
+              tag = LOU
+			  tag = OUM
+			  tag = ARC
+			  tag = AFN
                 }			  
 			}
 		}
