@@ -8,6 +8,7 @@ EUROPE =========================================================================
 = SPAIN
 = ARAGON / LATIN EMPIRE
 = THE COMMONWEALTH
+= GERMAN COUNTRIES
 
 ARCADIA =================================================================================
 = NEW BURGUNDY / BELGIUM
