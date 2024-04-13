@@ -11039,7 +11039,7 @@ song = {
 	}
 }
 song = {
-	name = "clair de lune.mp3"
+	name = "hungarian dance.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -11049,7 +11049,7 @@ song = {
 	}
 }
 song = {
-	name = "lacrimosa minor.mp3"
+	name = "musettas waltz.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -11059,7 +11059,7 @@ song = {
 	}
 }
 song = {
-	name = "moonlight sonata minor.mp3"
+	name = "la stravaganza.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -11069,7 +11069,7 @@ song = {
 	}
 }
 song = {
-	name = "gymnopedie.mp3"
+	name = "nutcracker marche.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -11079,7 +11079,7 @@ song = {
 	}
 }
 song = {
-	name = "love dream.mp3"
+	name = "william tell overture.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -11089,7 +11089,7 @@ song = {
 	}
 }
 song = {
-	name = "waltz no 2 minor.mp3"
+	name = "moldau.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -11099,17 +11099,7 @@ song = {
 	}
 }
 song = {
-	name = "chopin nocturne.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "torrent.mp3"
+	name = "italian saltarello.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -11182,6 +11172,54 @@ song = {
 }
 song = {
 	name = "confutatis.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "MARS the BRINGER OF WAR.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "sabre dance.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "string quartet no 6.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}		
+	}
+}
+song = {
+	name = "winter.mp3"
 	chance = {
 		factor = 100
 		modifier = {
