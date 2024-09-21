@@ -9372,153 +9372,6 @@ song = {
 	}
 }
 song = {
-	name = "la guaneña minor.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = SAN
-			tag = CAS
-			tag = GUY
-			tag = GRA
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "moliendo cafe.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = SAN
-			tag = CAS
-			tag = GUY
-			tag = GRA
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "el tigrito.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = SAN
-			tag = CAS
-			tag = GUY
-			tag = GRA
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "el regreso.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = SAN
-			tag = CAS
-			tag = GUY
-			tag = GRA
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "pajarillo.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = SAN
-			tag = CAS
-			tag = GUY
-			tag = GRA
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "cumbia con arpa.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = SAN
-			tag = CAS
-			tag = GUY
-			tag = GRA
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
-	name = "granada tierra querida.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-		  factor = 0
-		  NOT = { 
-		   OR = {
-			tag = SAN
-			tag = CAS
-			tag = GUY
-			tag = GRA
-			}
-		  }
-		}
-		modifier = {
-		  factor = 0
-	      war = yes
-		}
-	}
-}
-song = {
 	name = "aureliana.mp3"
 	chance = {
 		factor = 100
@@ -9673,6 +9526,153 @@ song = {
 			NOT = { 
 			  is_greater_power = yes 
 			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "la guaneña minor.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = SAN
+			tag = CAS
+			tag = GUY
+			tag = GRA
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "moliendo cafe.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = SAN
+			tag = CAS
+			tag = GUY
+			tag = GRA
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "el tigrito.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = SAN
+			tag = CAS
+			tag = GUY
+			tag = GRA
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "el regreso.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = SAN
+			tag = CAS
+			tag = GUY
+			tag = GRA
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "pajarillo.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = SAN
+			tag = CAS
+			tag = GUY
+			tag = GRA
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "cumbia con arpa.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = SAN
+			tag = CAS
+			tag = GUY
+			tag = GRA
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "granada tierra querida.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+			tag = SAN
+			tag = CAS
+			tag = GUY
+			tag = GRA
+			}
+		  }
 		}
 		modifier = {
 		  factor = 0
@@ -10647,6 +10647,620 @@ song = {
 	}
 }
 song = {
+	name = "mo li hua gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+        	   tag = DNG
+			   tag = BUE
+			   tag = DAA
+		       tag = SBA
+               tag = YGZ	
+               tag = SHU
+               tag = HOG
+               tag = TNG
+               tag = MCH
+               tag = XBI
+               tag = GMJ	
+               tag = GNG
+               tag = GXI
+               tag = HNN
+               tag = HUI
+               tag = SXI
+               tag = SZC
+               tag = TAW
+               tag = YNN
+               tag = FJU
+               tag = MCK
+               tag = KMT
+               tag = RCH
+               tag = GAN
+               tag = MJN               
+               tag = ZSA
+               tag = YLO			   
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "gong xi gong xi gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+        	   tag = DNG
+			   tag = BUE
+			   tag = DAA
+		       tag = SBA
+               tag = YGZ	
+               tag = SHU
+               tag = HOG
+               tag = TNG
+               tag = MCH
+               tag = XBI
+               tag = GMJ	
+               tag = GNG
+               tag = GXI
+               tag = HNN
+               tag = HUI
+               tag = SXI
+               tag = SZC
+               tag = TAW
+               tag = YNN
+               tag = FJU
+               tag = MCK
+               tag = KMT
+               tag = RCH
+               tag = GAN
+               tag = MJN               
+               tag = ZSA
+               tag = YLO			   
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "cup of solid gold gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+               tag = SHU
+               tag = HOG
+               tag = TNG
+               tag = MCH			   
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "ambush from ten sides gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+               tag = SHU
+               tag = HOG
+               tag = TNG
+               tag = MCH			   
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "legend of the condor heroes.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+               tag = SHU
+               tag = HOG
+               tag = TNG
+               tag = MCH			   
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "great wall ballad gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+               tag = SHU
+               tag = HOG
+               tag = TNG
+               tag = MCH			   
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "meigui meigui wo ai ni gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+        	   tag = DNG
+			   tag = BUE
+			   tag = DAA
+		       tag = SBA
+               tag = YGZ
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "victory song.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+        	   tag = DNG
+			   tag = BUE
+			   tag = DAA
+		       tag = SBA
+               tag = YGZ
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "heroic soldiers.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+        	   tag = DNG
+			   tag = BUE
+			   tag = DAA
+		       tag = SBA
+               tag = YGZ
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "arirang gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+        	   tag = DNG
+			   tag = BUE
+			   tag = DAA
+		       tag = SBA
+               tag = YGZ
+			    }
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  is_greater_power = yes 
+			}
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "gong xi gong xi minor.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+        	   tag = DNG
+			   tag = BUE
+			   tag = DAA
+		       tag = SBA
+               tag = YGZ	
+               tag = SHU
+               tag = HOG
+               tag = TNG
+               tag = MCH
+               tag = XBI
+               tag = GMJ	
+               tag = GNG
+               tag = GXI
+               tag = HNN
+               tag = HUI
+               tag = SXI
+               tag = SZC
+               tag = TAW
+               tag = YNN
+               tag = FJU
+               tag = MCK
+               tag = KMT
+               tag = RCH
+			   tag = GAN
+			   tag = MJN
+			   tag = YLO
+			   tag = ZSA
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "mo li hua minor.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+        	   tag = DNG
+			   tag = BUE
+			   tag = DAA
+		       tag = SBA
+               tag = YGZ	
+               tag = SHU
+               tag = HOG
+               tag = TNG
+               tag = MCH
+               tag = XBI
+               tag = GMJ	
+               tag = GNG
+               tag = GXI
+               tag = HNN
+               tag = HUI
+               tag = SXI
+               tag = SZC
+               tag = TAW
+               tag = YNN
+               tag = FJU
+               tag = MCK
+               tag = KMT
+               tag = RCH
+			   tag = GAN
+			   tag = MJN
+			   tag = YLO
+			   tag = ZSA
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "ambush from ten sides.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {	
+               tag = SHU
+               tag = HOG
+               tag = TNG
+               tag = MCH
+               tag = XBI
+               tag = GMJ	
+               tag = GNG
+               tag = GXI
+               tag = HNN
+               tag = HUI
+               tag = SXI
+               tag = SZC
+               tag = TAW
+               tag = YNN
+               tag = FJU
+               tag = MCK
+               tag = KMT
+               tag = RCH
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "kangding qingge.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {	
+               tag = SHU
+               tag = HOG
+               tag = TNG
+               tag = MCH
+               tag = XBI
+               tag = GMJ	
+               tag = GNG
+               tag = GXI
+               tag = HNN
+               tag = HUI
+               tag = SXI
+               tag = SZC
+               tag = TAW
+               tag = YNN
+               tag = FJU
+               tag = MCK
+               tag = KMT
+               tag = RCH
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "great wall ballad.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {	
+               tag = SHU
+               tag = HOG
+               tag = TNG
+               tag = MCH
+               tag = XBI
+               tag = GMJ	
+               tag = GNG
+               tag = GXI
+               tag = HNN
+               tag = HUI
+               tag = SXI
+               tag = SZC
+               tag = TAW
+               tag = YNN
+               tag = FJU
+               tag = MCK
+               tag = KMT
+               tag = RCH
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "pu tian yue.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {	
+               tag = SHU
+               tag = HOG
+               tag = TNG
+               tag = MCH
+               tag = XBI
+               tag = GMJ	
+               tag = GNG
+               tag = GXI
+               tag = HNN
+               tag = HUI
+               tag = SXI
+               tag = SZC
+               tag = TAW
+               tag = YNN
+               tag = FJU
+               tag = MCK
+               tag = KMT
+               tag = RCH
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "meigui meigui wo ai ni minor.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+        	   tag = DNG
+			   tag = BUE
+			   tag = DAA
+		       tag = SBA
+			   tag = YGZ
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "arirang minor.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+        	   tag = DNG
+			   tag = BUE
+			   tag = DAA
+		       tag = SBA
+			   tag = YGZ
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "doraji taryeong.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+		  NOT = { 
+		   OR = {
+        	   tag = DNG
+			   tag = BUE
+			   tag = DAA
+		       tag = SBA
+			   tag = YGZ
+			}
+		  }
+		}
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
 	name = "spring breeze gp.mp3"
 	chance = {
 		factor = 100
@@ -10883,6 +11497,11 @@ song = {
 			   tag = MJN
 			   tag = ZSA
 		       tag = GAN
+			   tag = DNG
+			   tag = BUE
+			   tag = DAA
+		       tag = SBA
+			   tag = YGZ
 			}
 		  }
 		}
@@ -10921,10 +11540,33 @@ song = {
 			factor = 0
 			NOT = { 
 			 OR = {
-        	   tag = YLO
-			   tag = MJN
-			   tag = ZSA
-		       tag = GAN
+        	   tag = DNG
+			   tag = BUE
+			   tag = DAA
+		       tag = SBA
+               tag = YGZ	
+               tag = SHU
+               tag = HOG
+               tag = TNG
+               tag = MCH
+               tag = XBI
+               tag = GMJ	
+               tag = GNG
+               tag = GXI
+               tag = HNN
+               tag = HUI
+               tag = SXI
+               tag = SZC
+               tag = TAW
+               tag = YNN
+               tag = FJU
+               tag = MCK
+               tag = KMT
+               tag = RCH
+               tag = GAN
+               tag = MJN               
+               tag = ZSA
+               tag = YLO
                 }			  
 			}
 		}
@@ -10944,10 +11586,33 @@ song = {
 			factor = 0
 			NOT = { 
 			 OR = {
-        	   tag = YLO
-			   tag = MJN
-			   tag = ZSA
-		       tag = GAN
+        	   tag = DNG
+			   tag = BUE
+			   tag = DAA
+		       tag = SBA
+               tag = YGZ	
+               tag = SHU
+               tag = HOG
+               tag = TNG
+               tag = MCH
+               tag = XBI
+               tag = GMJ	
+               tag = GNG
+               tag = GXI
+               tag = HNN
+               tag = HUI
+               tag = SXI
+               tag = SZC
+               tag = TAW
+               tag = YNN
+               tag = FJU
+               tag = MCK
+               tag = KMT
+               tag = RCH
+               tag = GAN
+               tag = MJN               
+               tag = ZSA
+               tag = YLO
                 }			  
 			}
 		}
@@ -10967,10 +11632,33 @@ song = {
 			factor = 0
 			NOT = { 
 			 OR = {
-        	   tag = YLO
-			   tag = MJN
-			   tag = ZSA
-		       tag = GAN
+        	   tag = DNG
+			   tag = BUE
+			   tag = DAA
+		       tag = SBA
+               tag = YGZ	
+               tag = SHU
+               tag = HOG
+               tag = TNG
+               tag = MCH
+               tag = XBI
+               tag = GMJ	
+               tag = GNG
+               tag = GXI
+               tag = HNN
+               tag = HUI
+               tag = SXI
+               tag = SZC
+               tag = TAW
+               tag = YNN
+               tag = FJU
+               tag = MCK
+               tag = KMT
+               tag = RCH
+               tag = GAN
+               tag = MJN               
+               tag = ZSA
+               tag = YLO
                 }			  
 			}
 		}
@@ -10990,10 +11678,79 @@ song = {
 			factor = 0
 			NOT = { 
 			 OR = {
-        	   tag = YLO
-			   tag = MJN
-			   tag = ZSA
-		       tag = GAN
+        	   tag = DNG
+			   tag = BUE
+			   tag = DAA
+		       tag = SBA
+               tag = YGZ	
+               tag = SHU
+               tag = HOG
+               tag = TNG
+               tag = MCH
+               tag = XBI
+               tag = GMJ	
+               tag = GNG
+               tag = GXI
+               tag = HNN
+               tag = HUI
+               tag = SXI
+               tag = SZC
+               tag = TAW
+               tag = YNN
+               tag = FJU
+               tag = MCK
+               tag = KMT
+               tag = RCH
+               tag = GAN
+               tag = MJN               
+               tag = ZSA
+               tag = YLO
+                }			  
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+			  war = yes
+			}
+		}	
+	}
+}
+song = {
+	name = "sword march.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			 OR = {
+        	   tag = DNG
+			   tag = BUE
+			   tag = DAA
+		       tag = SBA
+               tag = YGZ	
+               tag = SHU
+               tag = HOG
+               tag = TNG
+               tag = MCH
+               tag = XBI
+               tag = GMJ	
+               tag = GNG
+               tag = GXI
+               tag = HNN
+               tag = HUI
+               tag = SXI
+               tag = SZC
+               tag = TAW
+               tag = YNN
+               tag = FJU
+               tag = MCK
+               tag = KMT
+               tag = RCH
+               tag = GAN
+               tag = MJN               
+               tag = ZSA
+               tag = YLO
                 }			  
 			}
 		}
@@ -11013,10 +11770,33 @@ song = {
 			factor = 0
 			NOT = { 
 			 OR = {
-        	   tag = YLO
-			   tag = MJN
-			   tag = ZSA
-		       tag = GAN
+        	   tag = DNG
+			   tag = BUE
+			   tag = DAA
+		       tag = SBA
+               tag = YGZ	
+               tag = SHU
+               tag = HOG
+               tag = TNG
+               tag = MCH
+               tag = XBI
+               tag = GMJ	
+               tag = GNG
+               tag = GXI
+               tag = HNN
+               tag = HUI
+               tag = SXI
+               tag = SZC
+               tag = TAW
+               tag = YNN
+               tag = FJU
+               tag = MCK
+               tag = KMT
+               tag = RCH
+               tag = GAN
+               tag = MJN               
+               tag = ZSA
+               tag = YLO
                 }			  
 			}
 		}
