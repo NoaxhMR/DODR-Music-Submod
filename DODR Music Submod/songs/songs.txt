@@ -7,7 +7,19 @@ song = {
 	}
 }
 song = {
-	name = "GLOBAL - du noveau monde scherzo.mp3"
+	name = "[GL] ANGLOIS BURGUNDIAN WAR - summer.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			  has_global_flag = THE_FRENCH_FOLLY
+			}
+		}	
+	}
+}
+song = {
+	name = "[GL] ARCADIAN WARS - du noveau monde scherzo.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -17,6 +29,57 @@ song = {
 			  has_global_flag = ARCADIAN_WAR_ACTIVE
 			  has_global_flag = SECOND_ARCADIAN_WAR
 			  }
+			}
+		}	
+	}
+}
+song = {
+	name = "[GL] FUSO WAR - total japan life.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			  OR = {
+		   has_global_flag = the_sea_war
+		   has_global_flag = the_final_DNG_war
+			  }
+			}
+		}	
+	}
+}
+song = {
+	name = "[GL] GREAT AMERIGAN WAR - el condor pasa.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			  has_global_flag = Amerigan_GW
+			}
+		}	
+	}
+}
+song = {
+	name = "[GL] GREAT NORTHERN WAR - winter.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			  has_global_flag = SCA_BOH_NORTHERN_WAR
+			}
+		}	
+	}
+}
+song = {
+	name = "[GL] SECOND INDEPENDENCE WAR - fuga con pajarillo.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			  has_global_flag = CLM_SCIW
 			}
 		}	
 	}
@@ -12048,18 +12111,6 @@ song = {
 }
 song = {
 	name = "string quartet no 6.mp3"
-	chance = {
-		factor = 100
-		modifier = {
-			factor = 0
-			NOT = { 
-			  war = yes
-			}
-		}		
-	}
-}
-song = {
-	name = "winter.mp3"
 	chance = {
 		factor = 100
 		modifier = {
