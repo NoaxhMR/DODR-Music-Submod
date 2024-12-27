@@ -7,6 +7,18 @@ song = {
 	}
 }
 song = {
+	name = "[GL] NEW CENTURY - JUPITER.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { 
+			  year = 1900
+			}
+		}	
+	}
+}
+song = {
 	name = "[GL] ANGLOIS BURGUNDIAN WAR - summer.mp3"
 	chance = {
 		factor = 100
@@ -9036,7 +9048,7 @@ song = {
 	}
 }
 song = {
-	name = "jerusalem.mp3"
+	name = "jerusalem NAN.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -9063,7 +9075,7 @@ song = {
 	}
 }
 song = {
-	name = "greensleeves gp.mp3"
+	name = "royal fireworks.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -9090,7 +9102,7 @@ song = {
 	}
 }
 song = {
-	name = "i vow to thee my country.mp3"
+	name = "abide with me.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -9117,7 +9129,7 @@ song = {
 	}
 }
 song = {
-	name = "john barleycorn gp.mp3"
+	name = "the saucy arethusa.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -9144,7 +9156,7 @@ song = {
 	}
 }
 song = {
-	name = "lilibulero gp.mp3"
+	name = "nimrod.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -9213,7 +9225,7 @@ song = {
 	}
 }
 song = {
-	name = "under the harvest moon.mp3"
+	name = "the elfin knight.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -9234,7 +9246,7 @@ song = {
 	}
 }
 song = {
-	name = "the farmer's boy.mp3"
+	name = "scarborough fair.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -9255,7 +9267,7 @@ song = {
 	}
 }
 song = {
-	name = "john barleycorn.mp3"
+	name = "auld lang syne.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -9276,7 +9288,7 @@ song = {
 	}
 }
 song = {
-	name = "the shepherd's song.mp3"
+	name = "gallant forty twa.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -9297,7 +9309,7 @@ song = {
 	}
 }
 song = {
-	name = "beornia ask of thyself.mp3"
+	name = "the girl i left behind me.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -9343,7 +9355,7 @@ song = {
 	}
 }
 song = {
-	name = "the lincolnshire poacher.mp3"
+	name = "sarabande.mp3"
 	chance = {
 		factor = 100
 		modifier = {
@@ -11873,6 +11885,16 @@ song = {
 }
 song = {
 	name = "moonlight sonata gp.mp3"
+	chance = {
+		factor = 100
+		modifier = {
+		  factor = 0
+	      war = yes
+		}
+	}
+}
+song = {
+	name = "hebrides overture.mp3"
 	chance = {
 		factor = 100
 		modifier = {
